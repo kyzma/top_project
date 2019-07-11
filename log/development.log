@@ -96,3 +96,1008 @@ An error has occurred, this and all later migrations canceled:
 
 PG::DuplicateTable: ОШИБКА:  отношение "simple_captcha_data" уже существует
 : CREATE TABLE "simple_captcha_data" ("id" serial NOT NULL PRIMARY KEY, "key" character varying(40), "value" character varying(6), "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL) excluded from capture: DSN not set
+Started GET "/" for 127.0.0.1 at 2019-07-11 21:44:16 +0300
+
+
+Migrations are pending. To resolve this issue, run:
+
+        bin/rails db:migrate RAILS_ENV=development
+
+ excluded from capture: DSN not set
+  
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+        bin/rails db:migrate RAILS_ENV=development
+
+):
+  
+activerecord (5.2.0) lib/active_record/migration.rb:579:in `check_pending!'
+activerecord (5.2.0) lib/active_record/migration.rb:556:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.0) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.0) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+request_store (1.4.1) lib/request_store/middleware.rb:19:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+sentry-raven (2.9.0) lib/raven/integrations/rack.rb:51:in `call'
+railties (5.2.0) lib/rails/engine.rb:524:in `call'
+puma (4.0.1) lib/puma/configuration.rb:228:in `call'
+puma (4.0.1) lib/puma/server.rb:657:in `handle_request'
+puma (4.0.1) lib/puma/server.rb:467:in `process_client'
+puma (4.0.1) lib/puma/server.rb:328:in `block in run'
+puma (4.0.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2019-07-11 21:44:30 +0300
+
+
+Migrations are pending. To resolve this issue, run:
+
+        bin/rails db:migrate RAILS_ENV=development
+
+ excluded from capture: DSN not set
+  
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+        bin/rails db:migrate RAILS_ENV=development
+
+):
+  
+activerecord (5.2.0) lib/active_record/migration.rb:579:in `check_pending!'
+activerecord (5.2.0) lib/active_record/migration.rb:556:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.0) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.0) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+request_store (1.4.1) lib/request_store/middleware.rb:19:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+sentry-raven (2.9.0) lib/raven/integrations/rack.rb:51:in `call'
+railties (5.2.0) lib/rails/engine.rb:524:in `call'
+puma (4.0.1) lib/puma/configuration.rb:228:in `call'
+puma (4.0.1) lib/puma/server.rb:657:in `handle_request'
+puma (4.0.1) lib/puma/server.rb:467:in `process_client'
+puma (4.0.1) lib/puma/server.rb:328:in `block in run'
+puma (4.0.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2019-07-11 21:44:32 +0300
+
+
+Migrations are pending. To resolve this issue, run:
+
+        bin/rails db:migrate RAILS_ENV=development
+
+ excluded from capture: DSN not set
+  
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+        bin/rails db:migrate RAILS_ENV=development
+
+):
+  
+activerecord (5.2.0) lib/active_record/migration.rb:579:in `check_pending!'
+activerecord (5.2.0) lib/active_record/migration.rb:556:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.0) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.0) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+request_store (1.4.1) lib/request_store/middleware.rb:19:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+sentry-raven (2.9.0) lib/raven/integrations/rack.rb:51:in `call'
+railties (5.2.0) lib/rails/engine.rb:524:in `call'
+puma (4.0.1) lib/puma/configuration.rb:228:in `call'
+puma (4.0.1) lib/puma/server.rb:657:in `handle_request'
+puma (4.0.1) lib/puma/server.rb:467:in `process_client'
+puma (4.0.1) lib/puma/server.rb:328:in `block in run'
+puma (4.0.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2019-07-11 21:44:38 +0300
+
+
+Migrations are pending. To resolve this issue, run:
+
+        bin/rails db:migrate RAILS_ENV=development
+
+ excluded from capture: DSN not set
+  
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+        bin/rails db:migrate RAILS_ENV=development
+
+):
+  
+activerecord (5.2.0) lib/active_record/migration.rb:579:in `check_pending!'
+activerecord (5.2.0) lib/active_record/migration.rb:556:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.0) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.0) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+request_store (1.4.1) lib/request_store/middleware.rb:19:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+sentry-raven (2.9.0) lib/raven/integrations/rack.rb:51:in `call'
+railties (5.2.0) lib/rails/engine.rb:524:in `call'
+puma (4.0.1) lib/puma/configuration.rb:228:in `call'
+puma (4.0.1) lib/puma/server.rb:657:in `handle_request'
+puma (4.0.1) lib/puma/server.rb:467:in `process_client'
+puma (4.0.1) lib/puma/server.rb:328:in `block in run'
+puma (4.0.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+  [1m[35m (68.7ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" character varying NOT NULL PRIMARY KEY)[0m
+  ↳ /home/kyzma/.rbenv/versions/2.5.0/bin/rake:23
+  [1m[35m (66.3ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" character varying NOT NULL PRIMARY KEY, "value" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  ↳ /home/kyzma/.rbenv/versions/2.5.0/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_try_advisory_lock(7680598571059690920)[0m
+  ↳ /home/kyzma/.rbenv/versions/2.5.0/bin/rake:23
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/kyzma/.rbenv/versions/2.5.0/bin/rake:23
+Migrating to CreateSimpleCaptchaData (20190711210503)
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ /home/kyzma/.rbenv/versions/2.5.0/bin/rake:23
+  [1m[35m (36.5ms)[0m  [1m[35mCREATE TABLE "simple_captcha_data" ("id" serial NOT NULL PRIMARY KEY, "key" character varying(40), "value" character varying(6), "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  ↳ db/migrate/20190711210503_create_simple_captcha_data.rb:3
+  [1m[35m (30.2ms)[0m  [1m[35mCREATE  INDEX  "idx_key" ON "simple_captcha_data"  ("key")[0m
+  ↳ db/migrate/20190711210503_create_simple_captcha_data.rb:9
+  [1m[36mActiveRecord::SchemaMigration Create (0.8ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20190711210503"]]
+  ↳ /home/kyzma/.rbenv/versions/2.5.0/bin/rake:23
+  [1m[35m (10.8ms)[0m  [1m[35mCOMMIT[0m
+  ↳ /home/kyzma/.rbenv/versions/2.5.0/bin/rake:23
+Migrating to DeviseCreateUsers (20190711210504)
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ /home/kyzma/.rbenv/versions/2.5.0/bin/rake:23
+  [1m[35m (65.6ms)[0m  [1m[35mCREATE TABLE "users" ("id" bigserial primary key, "email" character varying DEFAULT '' NOT NULL, "encrypted_password" character varying DEFAULT '' NOT NULL, "reset_password_token" character varying, "reset_password_sent_at" timestamp, "remember_created_at" timestamp, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  ↳ db/migrate/20190711210504_devise_create_users.rb:5
+  [1m[35m (80.8ms)[0m  [1m[35mCREATE UNIQUE INDEX  "index_users_on_email" ON "users"  ("email")[0m
+  ↳ db/migrate/20190711210504_devise_create_users.rb:39
+  [1m[35m (33.7ms)[0m  [1m[35mCREATE UNIQUE INDEX  "index_users_on_reset_password_token" ON "users"  ("reset_password_token")[0m
+  ↳ db/migrate/20190711210504_devise_create_users.rb:40
+  [1m[36mActiveRecord::SchemaMigration Create (0.6ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20190711210504"]]
+  ↳ /home/kyzma/.rbenv/versions/2.5.0/bin/rake:23
+  [1m[35m (10.9ms)[0m  [1m[35mCOMMIT[0m
+  ↳ /home/kyzma/.rbenv/versions/2.5.0/bin/rake:23
+Migrating to CreateCkeditorAssets (20190711210509)
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ /home/kyzma/.rbenv/versions/2.5.0/bin/rake:23
+  [1m[35m (58.2ms)[0m  [1m[35mCREATE TABLE "ckeditor_assets" ("id" bigserial primary key, "data_file_name" character varying NOT NULL, "data_content_type" character varying, "data_file_size" integer, "data_fingerprint" character varying, "type" character varying(30), "width" integer, "height" integer, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  ↳ db/migrate/20190711210509_create_ckeditor_assets.rb:3
+  [1m[35m (26.5ms)[0m  [1m[35mCREATE  INDEX  "index_ckeditor_assets_on_type" ON "ckeditor_assets"  ("type")[0m
+  ↳ db/migrate/20190711210509_create_ckeditor_assets.rb:17
+  [1m[36mActiveRecord::SchemaMigration Create (0.5ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20190711210509"]]
+  ↳ /home/kyzma/.rbenv/versions/2.5.0/bin/rake:23
+  [1m[35m (10.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ /home/kyzma/.rbenv/versions/2.5.0/bin/rake:23
+Migrating to RocketCmsCreateContactMessages (20190711210510)
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ /home/kyzma/.rbenv/versions/2.5.0/bin/rake:23
+  [1m[35m (73.4ms)[0m  [1m[35mCREATE TABLE "contact_messages" ("id" serial NOT NULL PRIMARY KEY, "name" character varying, "email" character varying, "phone" character varying, "content" text, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  ↳ db/migrate/20190711210510_rocket_cms_create_contact_messages.rb:3
+  [1m[35m (28.8ms)[0m  [1m[35mCREATE  INDEX  "index_contact_messages_on_created_at" ON "contact_messages"  ("created_at")[0m
+  ↳ db/migrate/20190711210510_rocket_cms_create_contact_messages.rb:11
+  [1m[35m (31.4ms)[0m  [1m[35mCREATE  INDEX  "index_contact_messages_on_updated_at" ON "contact_messages"  ("updated_at")[0m
+  ↳ db/migrate/20190711210510_rocket_cms_create_contact_messages.rb:12
+  [1m[36mActiveRecord::SchemaMigration Create (0.4ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20190711210510"]]
+  ↳ /home/kyzma/.rbenv/versions/2.5.0/bin/rake:23
+  [1m[35m (9.0ms)[0m  [1m[35mCOMMIT[0m
+  ↳ /home/kyzma/.rbenv/versions/2.5.0/bin/rake:23
+Migrating to RocketCmsCreateNews (20190711210511)
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ /home/kyzma/.rbenv/versions/2.5.0/bin/rake:23
+  [1m[35m (54.3ms)[0m  [1m[35mCREATE TABLE "news" ("id" serial NOT NULL PRIMARY KEY, "enabled" boolean DEFAULT TRUE NOT NULL, "time" timestamp NOT NULL, "name" character varying NOT NULL, "excerpt" text, "content" text, "slug" character varying NOT NULL, "image_file_name" character varying, "image_content_type" character varying, "image_file_size" bigint, "image_updated_at" timestamp, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  ↳ db/migrate/20190711210511_rocket_cms_create_news.rb:3
+  [1m[35m (22.8ms)[0m  [1m[35mCREATE UNIQUE INDEX  "index_news_on_slug" ON "news"  ("slug")[0m
+  ↳ db/migrate/20190711210511_rocket_cms_create_news.rb:22
+  [1m[35m (32.2ms)[0m  [1m[35mCREATE  INDEX  "index_news_on_enabled_and_time" ON "news"  ("enabled", "time")[0m
+  ↳ db/migrate/20190711210511_rocket_cms_create_news.rb:23
+  [1m[36mActiveRecord::SchemaMigration Create (0.3ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20190711210511"]]
+  ↳ /home/kyzma/.rbenv/versions/2.5.0/bin/rake:23
+  [1m[35m (16.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ /home/kyzma/.rbenv/versions/2.5.0/bin/rake:23
+Migrating to RocketCmsCreatePages (20190711210512)
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ /home/kyzma/.rbenv/versions/2.5.0/bin/rake:23
+  [1m[35m (64.2ms)[0m  [1m[35mCREATE TABLE "menus" ("id" serial NOT NULL PRIMARY KEY, "name" character varying NOT NULL, "slug" character varying NOT NULL, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  ↳ db/migrate/20190711210512_rocket_cms_create_pages.rb:3
+  [1m[35m (31.0ms)[0m  [1m[35mCREATE UNIQUE INDEX  "index_menus_on_slug" ON "menus"  ("slug")[0m
+  ↳ db/migrate/20190711210512_rocket_cms_create_pages.rb:13
+  [1m[35m (57.3ms)[0m  [1m[35mCREATE TABLE "pages" ("id" serial NOT NULL PRIMARY KEY, "enabled" boolean DEFAULT TRUE NOT NULL, "parent_id" integer, "lft" integer, "rgt" integer, "depth" integer, "name" character varying NOT NULL, "content" text, "slug" character varying NOT NULL, "regexp" character varying, "redirect" character varying, "fullpath" character varying NOT NULL, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  ↳ db/migrate/20190711210512_rocket_cms_create_pages.rb:15
+  [1m[35m (23.8ms)[0m  [1m[35mCREATE UNIQUE INDEX  "index_pages_on_slug" ON "pages"  ("slug")[0m
+  ↳ db/migrate/20190711210512_rocket_cms_create_pages.rb:36
+  [1m[35m (47.5ms)[0m  [1m[35mCREATE  INDEX  "index_pages_on_enabled_and_lft" ON "pages"  ("enabled", "lft")[0m
+  ↳ db/migrate/20190711210512_rocket_cms_create_pages.rb:37
+  [1m[35m (0.8ms)[0m  [1m[35mCREATE TABLE "menus_pages" ("menu_id" integer NOT NULL, "page_id" integer NOT NULL)[0m
+  ↳ db/migrate/20190711210512_rocket_cms_create_pages.rb:39
+  [1m[35m (1.7ms)[0m  [1m[35mALTER TABLE "menus_pages" ADD CONSTRAINT "fk_rails_d62728888b"
+FOREIGN KEY ("menu_id")
+  REFERENCES "menus" ("id")
+ ON DELETE CASCADE[0m
+  ↳ db/migrate/20190711210512_rocket_cms_create_pages.rb:41
+  [1m[35m (1.0ms)[0m  [1m[35mALTER TABLE "menus_pages" ADD CONSTRAINT "fk_rails_2d8026bba5"
+FOREIGN KEY ("page_id")
+  REFERENCES "pages" ("id")
+ ON DELETE CASCADE[0m
+  ↳ db/migrate/20190711210512_rocket_cms_create_pages.rb:42
+  [1m[36mActiveRecord::SchemaMigration Create (0.3ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20190711210512"]]
+  ↳ /home/kyzma/.rbenv/versions/2.5.0/bin/rake:23
+  [1m[35m (9.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ /home/kyzma/.rbenv/versions/2.5.0/bin/rake:23
+Migrating to RocketCmsCreateSeos (20190711210513)
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ /home/kyzma/.rbenv/versions/2.5.0/bin/rake:23
+  [1m[35m (93.7ms)[0m  [1m[35mCREATE TABLE "seos" ("id" serial NOT NULL PRIMARY KEY, "enabled" boolean DEFAULT TRUE NOT NULL, "seoable_id" integer, "seoable_type" character varying, "h1" character varying, "title" character varying, "keywords" text, "description" text, "og_title" character varying, "robots" character varying, "og_image_file_name" character varying, "og_image_content_type" character varying, "og_image_file_size" bigint, "og_image_updated_at" timestamp, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  ↳ db/migrate/20190711210513_rocket_cms_create_seos.rb:3
+  [1m[35m (32.4ms)[0m  [1m[35mCREATE UNIQUE INDEX  "index_seos_on_seoable_id_and_seoable_type" ON "seos"  ("seoable_id", "seoable_type")[0m
+  ↳ db/migrate/20190711210513_rocket_cms_create_seos.rb:11
+  [1m[36mActiveRecord::SchemaMigration Create (0.3ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20190711210513"]]
+  ↳ /home/kyzma/.rbenv/versions/2.5.0/bin/rake:23
+  [1m[35m (9.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ /home/kyzma/.rbenv/versions/2.5.0/bin/rake:23
+Migrating to CreateRailsAdminSettings (20190711210514)
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ /home/kyzma/.rbenv/versions/2.5.0/bin/rake:23
+  [1m[35m (64.2ms)[0m  [1m[35mCREATE TABLE "rails_admin_settings" ("id" serial NOT NULL PRIMARY KEY, "enabled" boolean DEFAULT TRUE, "kind" character varying DEFAULT 'string' NOT NULL, "ns" character varying DEFAULT 'main', "key" character varying NOT NULL, "latitude" float, "longitude" float, "raw" text, "label" character varying, "file_file_name" character varying, "file_content_type" character varying, "file_file_size" bigint, "file_updated_at" timestamp, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  ↳ db/migrate/20190711210514_create_rails_admin_settings.rb:3
+  [1m[35m (28.5ms)[0m  [1m[35mCREATE  INDEX  "index_rails_admin_settings_on_key" ON "rails_admin_settings"  ("key")[0m
+  ↳ db/migrate/20190711210514_create_rails_admin_settings.rb:22
+  [1m[35m (32.2ms)[0m  [1m[35mCREATE UNIQUE INDEX  "index_rails_admin_settings_on_ns_and_key" ON "rails_admin_settings"  ("ns", "key")[0m
+  ↳ db/migrate/20190711210514_create_rails_admin_settings.rb:23
+  [1m[36mActiveRecord::SchemaMigration Create (0.3ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20190711210514"]]
+  ↳ /home/kyzma/.rbenv/versions/2.5.0/bin/rake:23
+  [1m[35m (16.9ms)[0m  [1m[35mCOMMIT[0m
+  ↳ /home/kyzma/.rbenv/versions/2.5.0/bin/rake:23
+Migrating to CreateVersions (20190711210515)
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ /home/kyzma/.rbenv/versions/2.5.0/bin/rake:23
+  [1m[35m (64.8ms)[0m  [1m[35mCREATE TABLE "versions" ("id" bigserial primary key, "item_type" character varying NOT NULL, "item_id" bigint NOT NULL, "event" character varying NOT NULL, "whodunnit" character varying, "object" text, "created_at" timestamp)[0m
+  ↳ db/migrate/20190711210515_create_versions.rb:12
+  [1m[35m (32.0ms)[0m  [1m[35mCREATE  INDEX  "index_versions_on_item_type_and_item_id" ON "versions"  ("item_type", "item_id")[0m
+  ↳ db/migrate/20190711210515_create_versions.rb:34
+  [1m[36mActiveRecord::SchemaMigration Create (0.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20190711210515"]]
+  ↳ /home/kyzma/.rbenv/versions/2.5.0/bin/rake:23
+  [1m[35m (15.9ms)[0m  [1m[35mCOMMIT[0m
+  ↳ /home/kyzma/.rbenv/versions/2.5.0/bin/rake:23
+Migrating to CreateFriendlyIdSlugs (20190711210516)
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ /home/kyzma/.rbenv/versions/2.5.0/bin/rake:23
+  [1m[35m (57.0ms)[0m  [1m[35mCREATE TABLE "friendly_id_slugs" ("id" bigserial primary key, "slug" character varying NOT NULL, "sluggable_id" integer NOT NULL, "sluggable_type" character varying(50), "scope" character varying, "created_at" timestamp)[0m
+  ↳ db/migrate/20190711210516_create_friendly_id_slugs.rb:10
+  [1m[35m (31.0ms)[0m  [1m[35mCREATE  INDEX  "index_friendly_id_slugs_on_sluggable_type_and_sluggable_id" ON "friendly_id_slugs"  ("sluggable_type", "sluggable_id")[0m
+  ↳ db/migrate/20190711210516_create_friendly_id_slugs.rb:17
+  [1m[35m (31.0ms)[0m  [1m[35mCREATE  INDEX  "index_friendly_id_slugs_on_slug_and_sluggable_type" ON "friendly_id_slugs"  ("slug", "sluggable_type")[0m
+  ↳ db/migrate/20190711210516_create_friendly_id_slugs.rb:18
+  [1m[35m (32.4ms)[0m  [1m[35mCREATE UNIQUE INDEX  "index_friendly_id_slugs_on_slug_and_sluggable_type_and_scope" ON "friendly_id_slugs"  ("slug", "sluggable_type", "scope")[0m
+  ↳ db/migrate/20190711210516_create_friendly_id_slugs.rb:19
+  [1m[36mActiveRecord::SchemaMigration Create (0.3ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20190711210516"]]
+  ↳ /home/kyzma/.rbenv/versions/2.5.0/bin/rake:23
+  [1m[35m (12.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ /home/kyzma/.rbenv/versions/2.5.0/bin/rake:23
+  [1m[36mActiveRecord::InternalMetadata Load (0.3ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ /home/kyzma/.rbenv/versions/2.5.0/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ /home/kyzma/.rbenv/versions/2.5.0/bin/rake:23
+  [1m[36mActiveRecord::InternalMetadata Create (0.3ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "key"[0m  [["key", "environment"], ["value", "development"], ["created_at", "2019-07-11 18:44:52.056660"], ["updated_at", "2019-07-11 18:44:52.056660"]]
+  ↳ /home/kyzma/.rbenv/versions/2.5.0/bin/rake:23
+  [1m[35m (8.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ /home/kyzma/.rbenv/versions/2.5.0/bin/rake:23
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT pg_advisory_unlock(7680598571059690920)[0m
+  ↳ /home/kyzma/.rbenv/versions/2.5.0/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/kyzma/.rbenv/versions/2.5.0/bin/rake:23
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "rails_admin_settings"."ns" FROM "rails_admin_settings"[0m
+  ↳ config/environment.rb:5
+  [1m[36mRailsAdminSettings::Setting Load (0.5ms)[0m  [1m[34mSELECT "rails_admin_settings".* FROM "rails_admin_settings" WHERE "rails_admin_settings"."ns" = $1[0m  [["ns", "main"]]
+  ↳ config/environment.rb:5
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ config/environment.rb:5
+  [1m[36mRailsAdminSettings::Setting Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "rails_admin_settings" WHERE "rails_admin_settings"."key" = $1 AND "rails_admin_settings"."ns" = $2 LIMIT $3[0m  [["key", "default_email_from"], ["ns", "main"], ["LIMIT", 1]]
+  ↳ config/environment.rb:5
+  [1m[36mRailsAdminSettings::Setting Create (0.4ms)[0m  [1m[32mINSERT INTO "rails_admin_settings" ("key", "raw", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["key", "default_email_from"], ["raw", "noreply@rscx.ru"], ["created_at", "2019-07-11 18:45:04.393500"], ["updated_at", "2019-07-11 18:45:04.393500"]]
+  ↳ config/environment.rb:5
+  [1m[35m (13.0ms)[0m  [1m[35mCOMMIT[0m
+  ↳ config/environment.rb:5
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ config/environment.rb:5
+  [1m[36mRailsAdminSettings::Setting Exists (0.6ms)[0m  [1m[34mSELECT  1 AS one FROM "rails_admin_settings" WHERE "rails_admin_settings"."key" = $1 AND "rails_admin_settings"."ns" = $2 LIMIT $3[0m  [["key", "form_email"], ["ns", "main"], ["LIMIT", 1]]
+  ↳ config/environment.rb:5
+  [1m[36mRailsAdminSettings::Setting Create (0.7ms)[0m  [1m[32mINSERT INTO "rails_admin_settings" ("key", "raw", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["key", "form_email"], ["raw", "glebtv@ya.ru"], ["created_at", "2019-07-11 18:45:04.410638"], ["updated_at", "2019-07-11 18:45:04.410638"]]
+  ↳ config/environment.rb:5
+  [1m[35m (3.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ config/environment.rb:5
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ config/environment.rb:5
+  [1m[36mRailsAdminSettings::Setting Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "rails_admin_settings" WHERE "rails_admin_settings"."key" = $1 AND "rails_admin_settings"."ns" = $2 LIMIT $3[0m  [["key", "email_topic"], ["ns", "main"], ["LIMIT", 1]]
+  ↳ config/environment.rb:5
+  [1m[36mRailsAdminSettings::Setting Create (0.3ms)[0m  [1m[32mINSERT INTO "rails_admin_settings" ("key", "raw", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["key", "email_topic"], ["raw", "с сайта"], ["created_at", "2019-07-11 18:45:04.419018"], ["updated_at", "2019-07-11 18:45:04.419018"]]
+  ↳ config/environment.rb:5
+  [1m[35m (4.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ config/environment.rb:5
+Started GET "/" for 127.0.0.1 at 2019-07-11 21:45:06 +0300
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+Processing by HomeController#index as HTML
+  [1m[36mPage Load (0.8ms)[0m  [1m[34mSELECT  "pages".* FROM "pages" WHERE "pages"."enabled" = $1 AND "pages"."fullpath" = $2 ORDER BY "pages"."id" ASC LIMIT $3[0m  [["enabled", true], ["fullpath", "/"], ["LIMIT", 1]]
+  ↳ /home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+  Rendering /home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/rocket_cms-0.29.0/app/views/home/index.slim within layouts/application
+  Rendered /home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/rocket_cms-0.29.0/app/views/home/index.slim within layouts/application (23.1ms)
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/views/layouts/application.slim:10
+  [1m[36mRailsAdminSettings::Setting Exists (0.5ms)[0m  [1m[34mSELECT  1 AS one FROM "rails_admin_settings" WHERE "rails_admin_settings"."key" = $1 AND "rails_admin_settings"."ns" = $2 LIMIT $3[0m  [["key", "default_title"], ["ns", "main"], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.slim:10
+  [1m[36mRailsAdminSettings::Setting Create (0.4ms)[0m  [1m[32mINSERT INTO "rails_admin_settings" ("key", "raw", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["key", "default_title"], ["raw", ""], ["created_at", "2019-07-11 18:45:06.803951"], ["updated_at", "2019-07-11 18:45:06.803951"]]
+  ↳ app/views/layouts/application.slim:10
+  [1m[35m (27.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/views/layouts/application.slim:10
+  [1m[36mMenu Load (0.6ms)[0m  [1m[34mSELECT  "menus".* FROM "menus" WHERE "menus"."slug" = $1 LIMIT $2[0m  [["slug", "main"], ["LIMIT", 1]]
+  ↳ /home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/bundler/gems/friendly_id-cf2f5337afd6/lib/friendly_id/finder_methods.rb:62
+  [1m[36mMenu Load (0.6ms)[0m  [1m[34mSELECT  "menus".* FROM "menus" INNER JOIN "friendly_id_slugs" ON "friendly_id_slugs"."sluggable_id" = "menus"."id" AND "friendly_id_slugs"."sluggable_type" = $1 WHERE "friendly_id_slugs"."sluggable_type" = 'Menu' AND "friendly_id_slugs"."slug" = 'main' ORDER BY "friendly_id_slugs"."id" DESC LIMIT $2[0m  [["sluggable_type", "Menu"], ["LIMIT", 1]]
+  ↳ /home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/bundler/gems/friendly_id-cf2f5337afd6/lib/friendly_id/history.rb:99
+can't find record with friendly id: "main"
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/bundler/gems/friendly_id-cf2f5337afd6/lib/friendly_id/finder_methods.rb:70:in `raise_not_found_exception'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/bundler/gems/friendly_id-cf2f5337afd6/lib/friendly_id/finder_methods.rb:23:in `find'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/rocket_cms-0.29.0/app/controllers/concerns/rs_menu.rb:59:in `nav_get_menu_items'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/rocket_cms-0.29.0/app/controllers/concerns/rs_menu.rb:38:in `block in navigation'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/rocket_navigation-0.3.0/lib/rocket_navigation/helpers.rb:75:in `render_navigation'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionpack-5.2.0/lib/abstract_controller/helpers.rb:67:in `render_navigation'
+/home/kyzma/projects1/top_project/app/views/blocks/_header.slim:2:in `_app_views_blocks__header_slim__3242106971400779328_70321510986100'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionview-5.2.0/lib/action_view/template.rb:159:in `block in render'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/activesupport-5.2.0/lib/active_support/notifications.rb:170:in `instrument'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionview-5.2.0/lib/action_view/template.rb:354:in `instrument_render_template'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionview-5.2.0/lib/action_view/template.rb:157:in `render'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionview-5.2.0/lib/action_view/renderer/partial_renderer.rb:344:in `block in render_partial'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionview-5.2.0/lib/action_view/renderer/abstract_renderer.rb:44:in `block in instrument'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/activesupport-5.2.0/lib/active_support/notifications.rb:168:in `block in instrument'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/activesupport-5.2.0/lib/active_support/notifications/instrumenter.rb:23:in `instrument'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/activesupport-5.2.0/lib/active_support/notifications.rb:168:in `instrument'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionview-5.2.0/lib/action_view/renderer/abstract_renderer.rb:43:in `instrument'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionview-5.2.0/lib/action_view/renderer/partial_renderer.rb:333:in `render_partial'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionview-5.2.0/lib/action_view/renderer/partial_renderer.rb:312:in `render'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionview-5.2.0/lib/action_view/renderer/renderer.rb:49:in `render_partial'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionview-5.2.0/lib/action_view/helpers/rendering_helper.rb:37:in `render'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/haml-5.1.1/lib/haml/helpers/action_view_mods.rb:15:in `render'
+/home/kyzma/projects1/top_project/app/views/layouts/application.slim:21:in `_app_views_layouts_application_slim___2318540370858090720_70321568767960'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionview-5.2.0/lib/action_view/template.rb:159:in `block in render'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/activesupport-5.2.0/lib/active_support/notifications.rb:170:in `instrument'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionview-5.2.0/lib/action_view/template.rb:354:in `instrument_render_template'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionview-5.2.0/lib/action_view/template.rb:157:in `render'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionview-5.2.0/lib/action_view/renderer/template_renderer.rb:66:in `render_with_layout'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionview-5.2.0/lib/action_view/renderer/template_renderer.rb:52:in `render_template'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionview-5.2.0/lib/action_view/renderer/template_renderer.rb:16:in `render'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionview-5.2.0/lib/action_view/renderer/renderer.rb:44:in `render_template'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionview-5.2.0/lib/action_view/renderer/renderer.rb:25:in `render'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionview-5.2.0/lib/action_view/rendering.rb:103:in `_render_template'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionpack-5.2.0/lib/action_controller/metal/streaming.rb:219:in `_render_template'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionview-5.2.0/lib/action_view/rendering.rb:84:in `render_to_body'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionpack-5.2.0/lib/action_controller/metal/rendering.rb:52:in `render_to_body'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionpack-5.2.0/lib/action_controller/metal/renderers.rb:142:in `render_to_body'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionpack-5.2.0/lib/abstract_controller/rendering.rb:25:in `render'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionpack-5.2.0/lib/action_controller/metal/rendering.rb:36:in `render'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionpack-5.2.0/lib/action_controller/metal/instrumentation.rb:46:in `block (2 levels) in render'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/activesupport-5.2.0/lib/active_support/core_ext/benchmark.rb:14:in `block in ms'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/2.5.0/benchmark.rb:308:in `realtime'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/activesupport-5.2.0/lib/active_support/core_ext/benchmark.rb:14:in `ms'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionpack-5.2.0/lib/action_controller/metal/instrumentation.rb:46:in `block in render'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionpack-5.2.0/lib/action_controller/metal/instrumentation.rb:87:in `cleanup_view_runtime'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/activerecord-5.2.0/lib/active_record/railties/controller_runtime.rb:31:in `cleanup_view_runtime'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionpack-5.2.0/lib/action_controller/metal/instrumentation.rb:45:in `render'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/remotipart-1.4.3/lib/remotipart/render_overrides.rb:17:in `render_with_remotipart'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionpack-5.2.0/lib/action_controller/metal/implicit_render.rb:35:in `default_render'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionpack-5.2.0/lib/action_controller/metal/basic_implicit_render.rb:6:in `block in send_action'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionpack-5.2.0/lib/action_controller/metal/basic_implicit_render.rb:6:in `tap'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionpack-5.2.0/lib/action_controller/metal/basic_implicit_render.rb:6:in `send_action'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionpack-5.2.0/lib/abstract_controller/base.rb:194:in `process_action'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionpack-5.2.0/lib/action_controller/metal/rendering.rb:30:in `process_action'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionpack-5.2.0/lib/abstract_controller/callbacks.rb:42:in `block in process_action'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/activesupport-5.2.0/lib/active_support/callbacks.rb:109:in `block in run_callbacks'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/sentry-raven-2.9.0/lib/raven/integrations/rails/controller_transaction.rb:7:in `block in included'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/activesupport-5.2.0/lib/active_support/callbacks.rb:118:in `instance_exec'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/activesupport-5.2.0/lib/active_support/callbacks.rb:118:in `block in run_callbacks'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/activesupport-5.2.0/lib/active_support/callbacks.rb:136:in `run_callbacks'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionpack-5.2.0/lib/abstract_controller/callbacks.rb:41:in `process_action'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionpack-5.2.0/lib/action_controller/metal/rescue.rb:22:in `process_action'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionpack-5.2.0/lib/action_controller/metal/instrumentation.rb:34:in `block in process_action'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/activesupport-5.2.0/lib/active_support/notifications.rb:168:in `block in instrument'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/activesupport-5.2.0/lib/active_support/notifications/instrumenter.rb:23:in `instrument'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/activesupport-5.2.0/lib/active_support/notifications.rb:168:in `instrument'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionpack-5.2.0/lib/action_controller/metal/instrumentation.rb:32:in `process_action'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionpack-5.2.0/lib/action_controller/metal/params_wrapper.rb:256:in `process_action'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/activerecord-5.2.0/lib/active_record/railties/controller_runtime.rb:24:in `process_action'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionpack-5.2.0/lib/abstract_controller/base.rb:134:in `process'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionview-5.2.0/lib/action_view/rendering.rb:32:in `process'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/rocket_cms-0.29.0/app/controllers/concerns/rs_errors.rb:37:in `process'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionpack-5.2.0/lib/action_controller/metal.rb:191:in `dispatch'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionpack-5.2.0/lib/action_controller/metal.rb:252:in `dispatch'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionpack-5.2.0/lib/action_dispatch/routing/route_set.rb:52:in `dispatch'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionpack-5.2.0/lib/action_dispatch/routing/route_set.rb:34:in `serve'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionpack-5.2.0/lib/action_dispatch/journey/router.rb:52:in `block in serve'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionpack-5.2.0/lib/action_dispatch/journey/router.rb:35:in `each'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionpack-5.2.0/lib/action_dispatch/journey/router.rb:35:in `serve'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionpack-5.2.0/lib/action_dispatch/routing/route_set.rb:840:in `call'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/rack-pjax-1.1.0/lib/rack/pjax.rb:12:in `call'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/remotipart-1.4.3/lib/remotipart/middleware.rb:32:in `call'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/glebtv-simple_captcha-0.8.1/lib/simple_captcha/middleware.rb:20:in `call'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/warden-1.2.8/lib/warden/manager.rb:36:in `block in call'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/warden-1.2.8/lib/warden/manager.rb:34:in `catch'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/warden-1.2.8/lib/warden/manager.rb:34:in `call'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/rack-2.0.7/lib/rack/tempfile_reaper.rb:15:in `call'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/rack-2.0.7/lib/rack/etag.rb:25:in `call'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/rack-2.0.7/lib/rack/conditional_get.rb:25:in `call'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/rack-2.0.7/lib/rack/head.rb:12:in `call'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionpack-5.2.0/lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/rack-2.0.7/lib/rack/session/abstract/id.rb:232:in `context'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/rack-2.0.7/lib/rack/session/abstract/id.rb:226:in `call'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionpack-5.2.0/lib/action_dispatch/middleware/cookies.rb:670:in `call'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/activerecord-5.2.0/lib/active_record/migration.rb:559:in `call'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionpack-5.2.0/lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/activesupport-5.2.0/lib/active_support/callbacks.rb:98:in `run_callbacks'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionpack-5.2.0/lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionpack-5.2.0/lib/action_dispatch/middleware/executor.rb:14:in `call'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionpack-5.2.0/lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionpack-5.2.0/lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/railties-5.2.0/lib/rails/rack/logger.rb:38:in `call_app'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/railties-5.2.0/lib/rails/rack/logger.rb:26:in `block in call'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/activesupport-5.2.0/lib/active_support/tagged_logging.rb:71:in `block in tagged'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/activesupport-5.2.0/lib/active_support/tagged_logging.rb:28:in `tagged'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/activesupport-5.2.0/lib/active_support/tagged_logging.rb:71:in `tagged'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/railties-5.2.0/lib/rails/rack/logger.rb:26:in `call'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/sprockets-rails-3.2.1/lib/sprockets/rails/quiet_assets.rb:13:in `call'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionpack-5.2.0/lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/request_store-1.4.1/lib/request_store/middleware.rb:19:in `call'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionpack-5.2.0/lib/action_dispatch/middleware/request_id.rb:27:in `call'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/rack-2.0.7/lib/rack/method_override.rb:22:in `call'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/rack-2.0.7/lib/rack/runtime.rb:22:in `call'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/activesupport-5.2.0/lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionpack-5.2.0/lib/action_dispatch/middleware/executor.rb:14:in `call'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionpack-5.2.0/lib/action_dispatch/middleware/static.rb:127:in `call'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/rack-2.0.7/lib/rack/sendfile.rb:111:in `call'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/sentry-raven-2.9.0/lib/raven/integrations/rack.rb:51:in `call'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/railties-5.2.0/lib/rails/engine.rb:524:in `call'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/puma-4.0.1/lib/puma/configuration.rb:228:in `call'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/puma-4.0.1/lib/puma/server.rb:657:in `handle_request'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/puma-4.0.1/lib/puma/server.rb:467:in `process_client'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/puma-4.0.1/lib/puma/server.rb:328:in `block in run'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/puma-4.0.1/lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+can't find record with friendly id: "main" excluded from capture: DSN not set
+  Rendered blocks/_header.slim (49.2ms)
+  Rendered /home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/rocket_cms-0.29.0/app/views/shared/_messages.slim (2.7ms)
+  Rendered blocks/_footer.slim (2.5ms)
+  Rendered /home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/rocket_cms-0.29.0/app/views/blocks/_counters.html (1.2ms)
+Completed 200 OK in 481ms (Views: 376.4ms | ActiveRecord: 39.0ms)
+
+
+Started GET "/admin" for 127.0.0.1 at 2019-07-11 21:46:09 +0300
+Processing by RailsAdmin::MainController#dashboard as HTML
+Completed 401 Unauthorized in 456ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2019-07-11 21:46:10 +0300
+Processing by Devise::SessionsController#new as HTML
+  [1m[36mPage Load (1.3ms)[0m  [1m[34mSELECT  "pages".* FROM "pages" WHERE "pages"."enabled" = $1 AND "pages"."fullpath" = $2 ORDER BY "pages"."id" ASC LIMIT $3[0m  [["enabled", true], ["fullpath", "/users/sign_in"], ["LIMIT", 1]]
+  ↳ /home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+  Rendering /home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/devise-i18n-1.8.0/app/views/devise/sessions/new.html.erb within layouts/application
+  Rendered /home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/devise-i18n-1.8.0/app/views/devise/shared/_links.html.erb (1.5ms)
+  Rendered /home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/devise-i18n-1.8.0/app/views/devise/sessions/new.html.erb within layouts/application (38.3ms)
+  [1m[36mRailsAdminSettings::Setting Load (0.4ms)[0m  [1m[34mSELECT "rails_admin_settings".* FROM "rails_admin_settings" WHERE "rails_admin_settings"."ns" = $1[0m  [["ns", "main"]]
+  ↳ app/views/layouts/application.slim:10
+  [1m[36mMenu Load (0.4ms)[0m  [1m[34mSELECT  "menus".* FROM "menus" WHERE "menus"."slug" = $1 LIMIT $2[0m  [["slug", "main"], ["LIMIT", 1]]
+  ↳ /home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/bundler/gems/friendly_id-cf2f5337afd6/lib/friendly_id/finder_methods.rb:62
+  [1m[36mMenu Load (0.7ms)[0m  [1m[34mSELECT  "menus".* FROM "menus" INNER JOIN "friendly_id_slugs" ON "friendly_id_slugs"."sluggable_id" = "menus"."id" AND "friendly_id_slugs"."sluggable_type" = $1 WHERE "friendly_id_slugs"."sluggable_type" = 'Menu' AND "friendly_id_slugs"."slug" = 'main' ORDER BY "friendly_id_slugs"."id" DESC LIMIT $2[0m  [["sluggable_type", "Menu"], ["LIMIT", 1]]
+  ↳ /home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/bundler/gems/friendly_id-cf2f5337afd6/lib/friendly_id/history.rb:99
+can't find record with friendly id: "main"
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/bundler/gems/friendly_id-cf2f5337afd6/lib/friendly_id/finder_methods.rb:70:in `raise_not_found_exception'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/bundler/gems/friendly_id-cf2f5337afd6/lib/friendly_id/finder_methods.rb:23:in `find'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/rocket_cms-0.29.0/app/controllers/concerns/rs_menu.rb:59:in `nav_get_menu_items'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/rocket_cms-0.29.0/app/controllers/concerns/rs_menu.rb:38:in `block in navigation'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/rocket_navigation-0.3.0/lib/rocket_navigation/helpers.rb:75:in `render_navigation'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionpack-5.2.0/lib/abstract_controller/helpers.rb:67:in `render_navigation'
+/home/kyzma/projects1/top_project/app/views/blocks/_header.slim:2:in `_app_views_blocks__header_slim__3242106971400779328_70321405048040'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionview-5.2.0/lib/action_view/template.rb:159:in `block in render'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/activesupport-5.2.0/lib/active_support/notifications.rb:170:in `instrument'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionview-5.2.0/lib/action_view/template.rb:354:in `instrument_render_template'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionview-5.2.0/lib/action_view/template.rb:157:in `render'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionview-5.2.0/lib/action_view/renderer/partial_renderer.rb:344:in `block in render_partial'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionview-5.2.0/lib/action_view/renderer/abstract_renderer.rb:44:in `block in instrument'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/activesupport-5.2.0/lib/active_support/notifications.rb:168:in `block in instrument'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/activesupport-5.2.0/lib/active_support/notifications/instrumenter.rb:23:in `instrument'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/activesupport-5.2.0/lib/active_support/notifications.rb:168:in `instrument'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionview-5.2.0/lib/action_view/renderer/abstract_renderer.rb:43:in `instrument'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionview-5.2.0/lib/action_view/renderer/partial_renderer.rb:333:in `render_partial'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionview-5.2.0/lib/action_view/renderer/partial_renderer.rb:312:in `render'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionview-5.2.0/lib/action_view/renderer/renderer.rb:49:in `render_partial'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionview-5.2.0/lib/action_view/helpers/rendering_helper.rb:37:in `render'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/haml-5.1.1/lib/haml/helpers/action_view_mods.rb:15:in `render'
+/home/kyzma/projects1/top_project/app/views/layouts/application.slim:21:in `_app_views_layouts_application_slim___2318540370858090720_70321403997140'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionview-5.2.0/lib/action_view/template.rb:159:in `block in render'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/activesupport-5.2.0/lib/active_support/notifications.rb:170:in `instrument'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionview-5.2.0/lib/action_view/template.rb:354:in `instrument_render_template'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionview-5.2.0/lib/action_view/template.rb:157:in `render'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionview-5.2.0/lib/action_view/renderer/template_renderer.rb:66:in `render_with_layout'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionview-5.2.0/lib/action_view/renderer/template_renderer.rb:52:in `render_template'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionview-5.2.0/lib/action_view/renderer/template_renderer.rb:16:in `render'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionview-5.2.0/lib/action_view/renderer/renderer.rb:44:in `render_template'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionview-5.2.0/lib/action_view/renderer/renderer.rb:25:in `render'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionview-5.2.0/lib/action_view/rendering.rb:103:in `_render_template'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionpack-5.2.0/lib/action_controller/metal/streaming.rb:219:in `_render_template'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionview-5.2.0/lib/action_view/rendering.rb:84:in `render_to_body'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionpack-5.2.0/lib/action_controller/metal/rendering.rb:52:in `render_to_body'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionpack-5.2.0/lib/action_controller/metal/renderers.rb:142:in `render_to_body'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionpack-5.2.0/lib/abstract_controller/rendering.rb:25:in `render'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionpack-5.2.0/lib/action_controller/metal/rendering.rb:36:in `render'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionpack-5.2.0/lib/action_controller/metal/instrumentation.rb:46:in `block (2 levels) in render'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/activesupport-5.2.0/lib/active_support/core_ext/benchmark.rb:14:in `block in ms'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/2.5.0/benchmark.rb:308:in `realtime'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/activesupport-5.2.0/lib/active_support/core_ext/benchmark.rb:14:in `ms'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionpack-5.2.0/lib/action_controller/metal/instrumentation.rb:46:in `block in render'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionpack-5.2.0/lib/action_controller/metal/instrumentation.rb:87:in `cleanup_view_runtime'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/activerecord-5.2.0/lib/active_record/railties/controller_runtime.rb:31:in `cleanup_view_runtime'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionpack-5.2.0/lib/action_controller/metal/instrumentation.rb:45:in `render'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/remotipart-1.4.3/lib/remotipart/render_overrides.rb:17:in `render_with_remotipart'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/responders-3.0.0/lib/action_controller/responder.rb:240:in `default_render'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/responders-3.0.0/lib/action_controller/responder.rb:172:in `to_html'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/responders-3.0.0/lib/action_controller/responder.rb:165:in `respond'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/responders-3.0.0/lib/action_controller/responder.rb:158:in `call'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/responders-3.0.0/lib/action_controller/respond_with.rb:213:in `respond_with'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/devise-4.6.2/app/controllers/devise/sessions_controller.rb:14:in `new'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionpack-5.2.0/lib/action_controller/metal/basic_implicit_render.rb:6:in `send_action'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionpack-5.2.0/lib/abstract_controller/base.rb:194:in `process_action'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionpack-5.2.0/lib/action_controller/metal/rendering.rb:30:in `process_action'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionpack-5.2.0/lib/abstract_controller/callbacks.rb:42:in `block in process_action'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/activesupport-5.2.0/lib/active_support/callbacks.rb:109:in `block in run_callbacks'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/sentry-raven-2.9.0/lib/raven/integrations/rails/controller_transaction.rb:7:in `block in included'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/activesupport-5.2.0/lib/active_support/callbacks.rb:118:in `instance_exec'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/activesupport-5.2.0/lib/active_support/callbacks.rb:118:in `block in run_callbacks'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/activesupport-5.2.0/lib/active_support/callbacks.rb:136:in `run_callbacks'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionpack-5.2.0/lib/abstract_controller/callbacks.rb:41:in `process_action'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionpack-5.2.0/lib/action_controller/metal/rescue.rb:22:in `process_action'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionpack-5.2.0/lib/action_controller/metal/instrumentation.rb:34:in `block in process_action'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/activesupport-5.2.0/lib/active_support/notifications.rb:168:in `block in instrument'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/activesupport-5.2.0/lib/active_support/notifications/instrumenter.rb:23:in `instrument'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/activesupport-5.2.0/lib/active_support/notifications.rb:168:in `instrument'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionpack-5.2.0/lib/action_controller/metal/instrumentation.rb:32:in `process_action'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionpack-5.2.0/lib/action_controller/metal/params_wrapper.rb:256:in `process_action'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/activerecord-5.2.0/lib/active_record/railties/controller_runtime.rb:24:in `process_action'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionpack-5.2.0/lib/abstract_controller/base.rb:134:in `process'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionview-5.2.0/lib/action_view/rendering.rb:32:in `process'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/rocket_cms-0.29.0/app/controllers/concerns/rs_errors.rb:37:in `process'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionpack-5.2.0/lib/action_controller/metal.rb:191:in `dispatch'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionpack-5.2.0/lib/action_controller/metal.rb:252:in `dispatch'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionpack-5.2.0/lib/action_dispatch/routing/route_set.rb:52:in `dispatch'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionpack-5.2.0/lib/action_dispatch/routing/route_set.rb:34:in `serve'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionpack-5.2.0/lib/action_dispatch/routing/mapper.rb:18:in `block in <class:Constraints>'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionpack-5.2.0/lib/action_dispatch/routing/mapper.rb:48:in `serve'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionpack-5.2.0/lib/action_dispatch/journey/router.rb:52:in `block in serve'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionpack-5.2.0/lib/action_dispatch/journey/router.rb:35:in `each'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionpack-5.2.0/lib/action_dispatch/journey/router.rb:35:in `serve'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionpack-5.2.0/lib/action_dispatch/routing/route_set.rb:840:in `call'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/rack-pjax-1.1.0/lib/rack/pjax.rb:12:in `call'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/remotipart-1.4.3/lib/remotipart/middleware.rb:32:in `call'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/glebtv-simple_captcha-0.8.1/lib/simple_captcha/middleware.rb:20:in `call'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/warden-1.2.8/lib/warden/manager.rb:36:in `block in call'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/warden-1.2.8/lib/warden/manager.rb:34:in `catch'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/warden-1.2.8/lib/warden/manager.rb:34:in `call'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/rack-2.0.7/lib/rack/tempfile_reaper.rb:15:in `call'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/rack-2.0.7/lib/rack/etag.rb:25:in `call'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/rack-2.0.7/lib/rack/conditional_get.rb:25:in `call'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/rack-2.0.7/lib/rack/head.rb:12:in `call'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionpack-5.2.0/lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/rack-2.0.7/lib/rack/session/abstract/id.rb:232:in `context'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/rack-2.0.7/lib/rack/session/abstract/id.rb:226:in `call'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionpack-5.2.0/lib/action_dispatch/middleware/cookies.rb:670:in `call'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/activerecord-5.2.0/lib/active_record/migration.rb:559:in `call'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionpack-5.2.0/lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/activesupport-5.2.0/lib/active_support/callbacks.rb:98:in `run_callbacks'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionpack-5.2.0/lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionpack-5.2.0/lib/action_dispatch/middleware/executor.rb:14:in `call'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionpack-5.2.0/lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionpack-5.2.0/lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/railties-5.2.0/lib/rails/rack/logger.rb:38:in `call_app'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/railties-5.2.0/lib/rails/rack/logger.rb:26:in `block in call'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/activesupport-5.2.0/lib/active_support/tagged_logging.rb:71:in `block in tagged'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/activesupport-5.2.0/lib/active_support/tagged_logging.rb:28:in `tagged'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/activesupport-5.2.0/lib/active_support/tagged_logging.rb:71:in `tagged'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/railties-5.2.0/lib/rails/rack/logger.rb:26:in `call'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/sprockets-rails-3.2.1/lib/sprockets/rails/quiet_assets.rb:13:in `call'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionpack-5.2.0/lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/request_store-1.4.1/lib/request_store/middleware.rb:19:in `call'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionpack-5.2.0/lib/action_dispatch/middleware/request_id.rb:27:in `call'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/rack-2.0.7/lib/rack/method_override.rb:22:in `call'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/rack-2.0.7/lib/rack/runtime.rb:22:in `call'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/activesupport-5.2.0/lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionpack-5.2.0/lib/action_dispatch/middleware/executor.rb:14:in `call'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionpack-5.2.0/lib/action_dispatch/middleware/static.rb:127:in `call'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/rack-2.0.7/lib/rack/sendfile.rb:111:in `call'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/sentry-raven-2.9.0/lib/raven/integrations/rack.rb:51:in `call'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/railties-5.2.0/lib/rails/engine.rb:524:in `call'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/puma-4.0.1/lib/puma/configuration.rb:228:in `call'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/puma-4.0.1/lib/puma/server.rb:657:in `handle_request'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/puma-4.0.1/lib/puma/server.rb:467:in `process_client'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/puma-4.0.1/lib/puma/server.rb:328:in `block in run'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/puma-4.0.1/lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+can't find record with friendly id: "main" excluded from capture: DSN not set
+  Rendered blocks/_header.slim (7.4ms)
+  Rendered /home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/rocket_cms-0.29.0/app/views/shared/_messages.slim (26.8ms)
+  Rendered blocks/_footer.slim (2.8ms)
+  Rendered /home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/rocket_cms-0.29.0/app/views/blocks/_counters.html (0.3ms)
+Completed 200 OK in 137ms (Views: 120.3ms | ActiveRecord: 6.0ms)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2019-07-11 21:47:56 +0300
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"7EXmu/vcOhmUlfq/RkxDRt8Ef3pMM3Z4H3dwVEIXr98D51HOteE1VbgAa4iRkJtNPmWN3lFtxvleHJVslmGW+Q==", "user"=>{"email"=>"admin@postgres.ru", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Войти"}
+  [1m[36mPage Load (0.4ms)[0m  [1m[34mSELECT  "pages".* FROM "pages" WHERE "pages"."enabled" = $1 AND "pages"."fullpath" = $2 ORDER BY "pages"."id" ASC LIMIT $3[0m  [["enabled", true], ["fullpath", "/users/sign_in"], ["LIMIT", 1]]
+  ↳ /home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["email", "admin@postgres.ru"], ["LIMIT", 1]]
+  ↳ /home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+Completed 401 Unauthorized in 18ms (ActiveRecord: 1.0ms)
+
+
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"7EXmu/vcOhmUlfq/RkxDRt8Ef3pMM3Z4H3dwVEIXr98D51HOteE1VbgAa4iRkJtNPmWN3lFtxvleHJVslmGW+Q==", "user"=>{"email"=>"admin@postgres.ru", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Войти"}
+  [1m[36mCACHE Page Load (0.0ms)[0m  [1m[34mSELECT  "pages".* FROM "pages" WHERE "pages"."enabled" = $1 AND "pages"."fullpath" = $2 ORDER BY "pages"."id" ASC LIMIT $3[0m  [["enabled", true], ["fullpath", "/users/sign_in"], ["LIMIT", 1]]
+  ↳ /home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+  Rendering /home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/devise-i18n-1.8.0/app/views/devise/sessions/new.html.erb within layouts/application
+  Rendered /home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/devise-i18n-1.8.0/app/views/devise/shared/_links.html.erb (0.8ms)
+  Rendered /home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/devise-i18n-1.8.0/app/views/devise/sessions/new.html.erb within layouts/application (3.4ms)
+  [1m[36mRailsAdminSettings::Setting Load (0.4ms)[0m  [1m[34mSELECT "rails_admin_settings".* FROM "rails_admin_settings" WHERE "rails_admin_settings"."ns" = $1[0m  [["ns", "main"]]
+  ↳ app/views/layouts/application.slim:10
+  [1m[36mMenu Load (0.8ms)[0m  [1m[34mSELECT  "menus".* FROM "menus" WHERE "menus"."slug" = $1 LIMIT $2[0m  [["slug", "main"], ["LIMIT", 1]]
+  ↳ /home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/bundler/gems/friendly_id-cf2f5337afd6/lib/friendly_id/finder_methods.rb:62
+  [1m[36mMenu Load (0.8ms)[0m  [1m[34mSELECT  "menus".* FROM "menus" INNER JOIN "friendly_id_slugs" ON "friendly_id_slugs"."sluggable_id" = "menus"."id" AND "friendly_id_slugs"."sluggable_type" = $1 WHERE "friendly_id_slugs"."sluggable_type" = 'Menu' AND "friendly_id_slugs"."slug" = 'main' ORDER BY "friendly_id_slugs"."id" DESC LIMIT $2[0m  [["sluggable_type", "Menu"], ["LIMIT", 1]]
+  ↳ /home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/bundler/gems/friendly_id-cf2f5337afd6/lib/friendly_id/history.rb:99
+can't find record with friendly id: "main"
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/bundler/gems/friendly_id-cf2f5337afd6/lib/friendly_id/finder_methods.rb:70:in `raise_not_found_exception'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/bundler/gems/friendly_id-cf2f5337afd6/lib/friendly_id/finder_methods.rb:23:in `find'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/rocket_cms-0.29.0/app/controllers/concerns/rs_menu.rb:59:in `nav_get_menu_items'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/rocket_cms-0.29.0/app/controllers/concerns/rs_menu.rb:38:in `block in navigation'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/rocket_navigation-0.3.0/lib/rocket_navigation/helpers.rb:75:in `render_navigation'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionpack-5.2.0/lib/abstract_controller/helpers.rb:67:in `render_navigation'
+/home/kyzma/projects1/top_project/app/views/blocks/_header.slim:2:in `_app_views_blocks__header_slim__3242106971400779328_47391765769600'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionview-5.2.0/lib/action_view/template.rb:159:in `block in render'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/activesupport-5.2.0/lib/active_support/notifications.rb:170:in `instrument'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionview-5.2.0/lib/action_view/template.rb:354:in `instrument_render_template'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionview-5.2.0/lib/action_view/template.rb:157:in `render'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionview-5.2.0/lib/action_view/renderer/partial_renderer.rb:344:in `block in render_partial'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionview-5.2.0/lib/action_view/renderer/abstract_renderer.rb:44:in `block in instrument'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/activesupport-5.2.0/lib/active_support/notifications.rb:168:in `block in instrument'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/activesupport-5.2.0/lib/active_support/notifications/instrumenter.rb:23:in `instrument'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/activesupport-5.2.0/lib/active_support/notifications.rb:168:in `instrument'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionview-5.2.0/lib/action_view/renderer/abstract_renderer.rb:43:in `instrument'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionview-5.2.0/lib/action_view/renderer/partial_renderer.rb:333:in `render_partial'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionview-5.2.0/lib/action_view/renderer/partial_renderer.rb:312:in `render'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionview-5.2.0/lib/action_view/renderer/renderer.rb:49:in `render_partial'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionview-5.2.0/lib/action_view/helpers/rendering_helper.rb:37:in `render'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/haml-5.1.1/lib/haml/helpers/action_view_mods.rb:15:in `render'
+/home/kyzma/projects1/top_project/app/views/layouts/application.slim:21:in `_app_views_layouts_application_slim___2318540370858090720_70321512354480'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionview-5.2.0/lib/action_view/template.rb:159:in `block in render'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/activesupport-5.2.0/lib/active_support/notifications.rb:170:in `instrument'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionview-5.2.0/lib/action_view/template.rb:354:in `instrument_render_template'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionview-5.2.0/lib/action_view/template.rb:157:in `render'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionview-5.2.0/lib/action_view/renderer/template_renderer.rb:66:in `render_with_layout'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionview-5.2.0/lib/action_view/renderer/template_renderer.rb:52:in `render_template'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionview-5.2.0/lib/action_view/renderer/template_renderer.rb:16:in `render'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionview-5.2.0/lib/action_view/renderer/renderer.rb:44:in `render_template'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionview-5.2.0/lib/action_view/renderer/renderer.rb:25:in `render'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionview-5.2.0/lib/action_view/rendering.rb:103:in `_render_template'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionpack-5.2.0/lib/action_controller/metal/streaming.rb:219:in `_render_template'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionview-5.2.0/lib/action_view/rendering.rb:84:in `render_to_body'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionpack-5.2.0/lib/action_controller/metal/rendering.rb:52:in `render_to_body'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionpack-5.2.0/lib/action_controller/metal/renderers.rb:142:in `render_to_body'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionpack-5.2.0/lib/abstract_controller/rendering.rb:25:in `render'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionpack-5.2.0/lib/action_controller/metal/rendering.rb:36:in `render'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionpack-5.2.0/lib/action_controller/metal/instrumentation.rb:46:in `block (2 levels) in render'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/activesupport-5.2.0/lib/active_support/core_ext/benchmark.rb:14:in `block in ms'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/2.5.0/benchmark.rb:308:in `realtime'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/activesupport-5.2.0/lib/active_support/core_ext/benchmark.rb:14:in `ms'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionpack-5.2.0/lib/action_controller/metal/instrumentation.rb:46:in `block in render'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionpack-5.2.0/lib/action_controller/metal/instrumentation.rb:87:in `cleanup_view_runtime'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/activerecord-5.2.0/lib/active_record/railties/controller_runtime.rb:31:in `cleanup_view_runtime'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionpack-5.2.0/lib/action_controller/metal/instrumentation.rb:45:in `render'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/remotipart-1.4.3/lib/remotipart/render_overrides.rb:17:in `render_with_remotipart'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/responders-3.0.0/lib/action_controller/responder.rb:240:in `default_render'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/responders-3.0.0/lib/action_controller/responder.rb:172:in `to_html'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/responders-3.0.0/lib/action_controller/responder.rb:165:in `respond'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/responders-3.0.0/lib/action_controller/responder.rb:158:in `call'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/responders-3.0.0/lib/action_controller/respond_with.rb:213:in `respond_with'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/devise-4.6.2/app/controllers/devise/sessions_controller.rb:14:in `new'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionpack-5.2.0/lib/action_controller/metal/basic_implicit_render.rb:6:in `send_action'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionpack-5.2.0/lib/abstract_controller/base.rb:194:in `process_action'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionpack-5.2.0/lib/action_controller/metal/rendering.rb:30:in `process_action'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionpack-5.2.0/lib/abstract_controller/callbacks.rb:42:in `block in process_action'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/activesupport-5.2.0/lib/active_support/callbacks.rb:109:in `block in run_callbacks'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/sentry-raven-2.9.0/lib/raven/integrations/rails/controller_transaction.rb:7:in `block in included'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/activesupport-5.2.0/lib/active_support/callbacks.rb:118:in `instance_exec'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/activesupport-5.2.0/lib/active_support/callbacks.rb:118:in `block in run_callbacks'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/activesupport-5.2.0/lib/active_support/callbacks.rb:136:in `run_callbacks'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionpack-5.2.0/lib/abstract_controller/callbacks.rb:41:in `process_action'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionpack-5.2.0/lib/action_controller/metal/rescue.rb:22:in `process_action'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionpack-5.2.0/lib/action_controller/metal/instrumentation.rb:34:in `block in process_action'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/activesupport-5.2.0/lib/active_support/notifications.rb:168:in `block in instrument'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/activesupport-5.2.0/lib/active_support/notifications/instrumenter.rb:23:in `instrument'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/activesupport-5.2.0/lib/active_support/notifications.rb:168:in `instrument'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionpack-5.2.0/lib/action_controller/metal/instrumentation.rb:32:in `process_action'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionpack-5.2.0/lib/action_controller/metal/params_wrapper.rb:256:in `process_action'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/activerecord-5.2.0/lib/active_record/railties/controller_runtime.rb:24:in `process_action'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionpack-5.2.0/lib/abstract_controller/base.rb:134:in `process'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionview-5.2.0/lib/action_view/rendering.rb:32:in `process'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/rocket_cms-0.29.0/app/controllers/concerns/rs_errors.rb:37:in `process'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionpack-5.2.0/lib/action_controller/metal.rb:191:in `dispatch'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionpack-5.2.0/lib/action_controller/metal.rb:236:in `block in action'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/devise-4.6.2/lib/devise/failure_app.rb:75:in `recall'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/devise-4.6.2/lib/devise/failure_app.rb:41:in `respond'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionpack-5.2.0/lib/abstract_controller/base.rb:194:in `process_action'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionpack-5.2.0/lib/abstract_controller/base.rb:134:in `process'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionpack-5.2.0/lib/action_controller/metal.rb:191:in `dispatch'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionpack-5.2.0/lib/action_controller/metal.rb:236:in `block in action'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/devise-4.6.2/lib/devise/failure_app.rb:23:in `call'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/devise-4.6.2/lib/devise/delegator.rb:7:in `call'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/warden-1.2.8/lib/warden/manager.rb:143:in `call_failure_app'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/warden-1.2.8/lib/warden/manager.rb:129:in `process_unauthenticated'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/warden-1.2.8/lib/warden/manager.rb:44:in `call'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/rack-2.0.7/lib/rack/tempfile_reaper.rb:15:in `call'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/rack-2.0.7/lib/rack/etag.rb:25:in `call'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/rack-2.0.7/lib/rack/conditional_get.rb:38:in `call'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/rack-2.0.7/lib/rack/head.rb:12:in `call'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionpack-5.2.0/lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/rack-2.0.7/lib/rack/session/abstract/id.rb:232:in `context'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/rack-2.0.7/lib/rack/session/abstract/id.rb:226:in `call'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionpack-5.2.0/lib/action_dispatch/middleware/cookies.rb:670:in `call'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/activerecord-5.2.0/lib/active_record/migration.rb:559:in `call'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionpack-5.2.0/lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/activesupport-5.2.0/lib/active_support/callbacks.rb:98:in `run_callbacks'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionpack-5.2.0/lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionpack-5.2.0/lib/action_dispatch/middleware/executor.rb:14:in `call'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionpack-5.2.0/lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionpack-5.2.0/lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/railties-5.2.0/lib/rails/rack/logger.rb:38:in `call_app'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/railties-5.2.0/lib/rails/rack/logger.rb:26:in `block in call'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/activesupport-5.2.0/lib/active_support/tagged_logging.rb:71:in `block in tagged'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/activesupport-5.2.0/lib/active_support/tagged_logging.rb:28:in `tagged'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/activesupport-5.2.0/lib/active_support/tagged_logging.rb:71:in `tagged'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/railties-5.2.0/lib/rails/rack/logger.rb:26:in `call'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/sprockets-rails-3.2.1/lib/sprockets/rails/quiet_assets.rb:13:in `call'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionpack-5.2.0/lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/request_store-1.4.1/lib/request_store/middleware.rb:19:in `call'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionpack-5.2.0/lib/action_dispatch/middleware/request_id.rb:27:in `call'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/rack-2.0.7/lib/rack/method_override.rb:22:in `call'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/rack-2.0.7/lib/rack/runtime.rb:22:in `call'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/activesupport-5.2.0/lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionpack-5.2.0/lib/action_dispatch/middleware/executor.rb:14:in `call'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionpack-5.2.0/lib/action_dispatch/middleware/static.rb:127:in `call'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/rack-2.0.7/lib/rack/sendfile.rb:111:in `call'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/sentry-raven-2.9.0/lib/raven/integrations/rack.rb:51:in `call'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/railties-5.2.0/lib/rails/engine.rb:524:in `call'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/puma-4.0.1/lib/puma/configuration.rb:228:in `call'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/puma-4.0.1/lib/puma/server.rb:657:in `handle_request'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/puma-4.0.1/lib/puma/server.rb:467:in `process_client'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/puma-4.0.1/lib/puma/server.rb:328:in `block in run'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/puma-4.0.1/lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+can't find record with friendly id: "main" excluded from capture: DSN not set
+  Rendered blocks/_header.slim (7.5ms)
+  Rendered /home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/rocket_cms-0.29.0/app/views/shared/_messages.slim (2.9ms)
+  Rendered blocks/_footer.slim (1.5ms)
+  Rendered /home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/rocket_cms-0.29.0/app/views/blocks/_counters.html (0.1ms)
+Completed 200 OK in 202ms (Views: 48.6ms | ActiveRecord: 1.9ms)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2019-07-11 21:48:04 +0300
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"/Sene4ewg1DlN8bnhr7OlhNvEdWNEJtFOQ036GgO6fYShRAOyY2MHMmiV9BRYhad8g7jcZBOK8R4ZtLQvHjQ0A==", "user"=>{"email"=>"admin@postgres.ru", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Войти"}
+  [1m[36mPage Load (0.3ms)[0m  [1m[34mSELECT  "pages".* FROM "pages" WHERE "pages"."enabled" = $1 AND "pages"."fullpath" = $2 ORDER BY "pages"."id" ASC LIMIT $3[0m  [["enabled", true], ["fullpath", "/users/sign_in"], ["LIMIT", 1]]
+  ↳ /home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["email", "admin@postgres.ru"], ["LIMIT", 1]]
+  ↳ /home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+Completed 401 Unauthorized in 4ms (ActiveRecord: 0.9ms)
+
+
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"/Sene4ewg1DlN8bnhr7OlhNvEdWNEJtFOQ036GgO6fYShRAOyY2MHMmiV9BRYhad8g7jcZBOK8R4ZtLQvHjQ0A==", "user"=>{"email"=>"admin@postgres.ru", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Войти"}
+  [1m[36mCACHE Page Load (0.0ms)[0m  [1m[34mSELECT  "pages".* FROM "pages" WHERE "pages"."enabled" = $1 AND "pages"."fullpath" = $2 ORDER BY "pages"."id" ASC LIMIT $3[0m  [["enabled", true], ["fullpath", "/users/sign_in"], ["LIMIT", 1]]
+  ↳ /home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+  Rendering /home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/devise-i18n-1.8.0/app/views/devise/sessions/new.html.erb within layouts/application
+  Rendered /home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/devise-i18n-1.8.0/app/views/devise/shared/_links.html.erb (1.4ms)
+  Rendered /home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/devise-i18n-1.8.0/app/views/devise/sessions/new.html.erb within layouts/application (5.4ms)
+  [1m[36mRailsAdminSettings::Setting Load (0.4ms)[0m  [1m[34mSELECT "rails_admin_settings".* FROM "rails_admin_settings" WHERE "rails_admin_settings"."ns" = $1[0m  [["ns", "main"]]
+  ↳ app/views/layouts/application.slim:10
+  [1m[36mMenu Load (0.4ms)[0m  [1m[34mSELECT  "menus".* FROM "menus" WHERE "menus"."slug" = $1 LIMIT $2[0m  [["slug", "main"], ["LIMIT", 1]]
+  ↳ /home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/bundler/gems/friendly_id-cf2f5337afd6/lib/friendly_id/finder_methods.rb:62
+  [1m[36mMenu Load (0.7ms)[0m  [1m[34mSELECT  "menus".* FROM "menus" INNER JOIN "friendly_id_slugs" ON "friendly_id_slugs"."sluggable_id" = "menus"."id" AND "friendly_id_slugs"."sluggable_type" = $1 WHERE "friendly_id_slugs"."sluggable_type" = 'Menu' AND "friendly_id_slugs"."slug" = 'main' ORDER BY "friendly_id_slugs"."id" DESC LIMIT $2[0m  [["sluggable_type", "Menu"], ["LIMIT", 1]]
+  ↳ /home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/bundler/gems/friendly_id-cf2f5337afd6/lib/friendly_id/history.rb:99
+can't find record with friendly id: "main"
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/bundler/gems/friendly_id-cf2f5337afd6/lib/friendly_id/finder_methods.rb:70:in `raise_not_found_exception'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/bundler/gems/friendly_id-cf2f5337afd6/lib/friendly_id/finder_methods.rb:23:in `find'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/rocket_cms-0.29.0/app/controllers/concerns/rs_menu.rb:59:in `nav_get_menu_items'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/rocket_cms-0.29.0/app/controllers/concerns/rs_menu.rb:38:in `block in navigation'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/rocket_navigation-0.3.0/lib/rocket_navigation/helpers.rb:75:in `render_navigation'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionpack-5.2.0/lib/abstract_controller/helpers.rb:67:in `render_navigation'
+/home/kyzma/projects1/top_project/app/views/blocks/_header.slim:2:in `_app_views_blocks__header_slim__3242106971400779328_70321406699500'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionview-5.2.0/lib/action_view/template.rb:159:in `block in render'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/activesupport-5.2.0/lib/active_support/notifications.rb:170:in `instrument'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionview-5.2.0/lib/action_view/template.rb:354:in `instrument_render_template'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionview-5.2.0/lib/action_view/template.rb:157:in `render'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionview-5.2.0/lib/action_view/renderer/partial_renderer.rb:344:in `block in render_partial'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionview-5.2.0/lib/action_view/renderer/abstract_renderer.rb:44:in `block in instrument'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/activesupport-5.2.0/lib/active_support/notifications.rb:168:in `block in instrument'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/activesupport-5.2.0/lib/active_support/notifications/instrumenter.rb:23:in `instrument'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/activesupport-5.2.0/lib/active_support/notifications.rb:168:in `instrument'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionview-5.2.0/lib/action_view/renderer/abstract_renderer.rb:43:in `instrument'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionview-5.2.0/lib/action_view/renderer/partial_renderer.rb:333:in `render_partial'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionview-5.2.0/lib/action_view/renderer/partial_renderer.rb:312:in `render'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionview-5.2.0/lib/action_view/renderer/renderer.rb:49:in `render_partial'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionview-5.2.0/lib/action_view/helpers/rendering_helper.rb:37:in `render'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/haml-5.1.1/lib/haml/helpers/action_view_mods.rb:15:in `render'
+/home/kyzma/projects1/top_project/app/views/layouts/application.slim:21:in `_app_views_layouts_application_slim___2318540370858090720_70321405715060'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionview-5.2.0/lib/action_view/template.rb:159:in `block in render'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/activesupport-5.2.0/lib/active_support/notifications.rb:170:in `instrument'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionview-5.2.0/lib/action_view/template.rb:354:in `instrument_render_template'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionview-5.2.0/lib/action_view/template.rb:157:in `render'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionview-5.2.0/lib/action_view/renderer/template_renderer.rb:66:in `render_with_layout'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionview-5.2.0/lib/action_view/renderer/template_renderer.rb:52:in `render_template'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionview-5.2.0/lib/action_view/renderer/template_renderer.rb:16:in `render'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionview-5.2.0/lib/action_view/renderer/renderer.rb:44:in `render_template'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionview-5.2.0/lib/action_view/renderer/renderer.rb:25:in `render'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionview-5.2.0/lib/action_view/rendering.rb:103:in `_render_template'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionpack-5.2.0/lib/action_controller/metal/streaming.rb:219:in `_render_template'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionview-5.2.0/lib/action_view/rendering.rb:84:in `render_to_body'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionpack-5.2.0/lib/action_controller/metal/rendering.rb:52:in `render_to_body'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionpack-5.2.0/lib/action_controller/metal/renderers.rb:142:in `render_to_body'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionpack-5.2.0/lib/abstract_controller/rendering.rb:25:in `render'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionpack-5.2.0/lib/action_controller/metal/rendering.rb:36:in `render'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionpack-5.2.0/lib/action_controller/metal/instrumentation.rb:46:in `block (2 levels) in render'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/activesupport-5.2.0/lib/active_support/core_ext/benchmark.rb:14:in `block in ms'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/2.5.0/benchmark.rb:308:in `realtime'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/activesupport-5.2.0/lib/active_support/core_ext/benchmark.rb:14:in `ms'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionpack-5.2.0/lib/action_controller/metal/instrumentation.rb:46:in `block in render'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionpack-5.2.0/lib/action_controller/metal/instrumentation.rb:87:in `cleanup_view_runtime'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/activerecord-5.2.0/lib/active_record/railties/controller_runtime.rb:31:in `cleanup_view_runtime'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionpack-5.2.0/lib/action_controller/metal/instrumentation.rb:45:in `render'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/remotipart-1.4.3/lib/remotipart/render_overrides.rb:17:in `render_with_remotipart'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/responders-3.0.0/lib/action_controller/responder.rb:240:in `default_render'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/responders-3.0.0/lib/action_controller/responder.rb:172:in `to_html'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/responders-3.0.0/lib/action_controller/responder.rb:165:in `respond'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/responders-3.0.0/lib/action_controller/responder.rb:158:in `call'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/responders-3.0.0/lib/action_controller/respond_with.rb:213:in `respond_with'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/devise-4.6.2/app/controllers/devise/sessions_controller.rb:14:in `new'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionpack-5.2.0/lib/action_controller/metal/basic_implicit_render.rb:6:in `send_action'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionpack-5.2.0/lib/abstract_controller/base.rb:194:in `process_action'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionpack-5.2.0/lib/action_controller/metal/rendering.rb:30:in `process_action'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionpack-5.2.0/lib/abstract_controller/callbacks.rb:42:in `block in process_action'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/activesupport-5.2.0/lib/active_support/callbacks.rb:109:in `block in run_callbacks'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/sentry-raven-2.9.0/lib/raven/integrations/rails/controller_transaction.rb:7:in `block in included'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/activesupport-5.2.0/lib/active_support/callbacks.rb:118:in `instance_exec'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/activesupport-5.2.0/lib/active_support/callbacks.rb:118:in `block in run_callbacks'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/activesupport-5.2.0/lib/active_support/callbacks.rb:136:in `run_callbacks'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionpack-5.2.0/lib/abstract_controller/callbacks.rb:41:in `process_action'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionpack-5.2.0/lib/action_controller/metal/rescue.rb:22:in `process_action'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionpack-5.2.0/lib/action_controller/metal/instrumentation.rb:34:in `block in process_action'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/activesupport-5.2.0/lib/active_support/notifications.rb:168:in `block in instrument'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/activesupport-5.2.0/lib/active_support/notifications/instrumenter.rb:23:in `instrument'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/activesupport-5.2.0/lib/active_support/notifications.rb:168:in `instrument'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionpack-5.2.0/lib/action_controller/metal/instrumentation.rb:32:in `process_action'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionpack-5.2.0/lib/action_controller/metal/params_wrapper.rb:256:in `process_action'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/activerecord-5.2.0/lib/active_record/railties/controller_runtime.rb:24:in `process_action'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionpack-5.2.0/lib/abstract_controller/base.rb:134:in `process'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionview-5.2.0/lib/action_view/rendering.rb:32:in `process'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/rocket_cms-0.29.0/app/controllers/concerns/rs_errors.rb:37:in `process'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionpack-5.2.0/lib/action_controller/metal.rb:191:in `dispatch'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionpack-5.2.0/lib/action_controller/metal.rb:236:in `block in action'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/devise-4.6.2/lib/devise/failure_app.rb:75:in `recall'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/devise-4.6.2/lib/devise/failure_app.rb:41:in `respond'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionpack-5.2.0/lib/abstract_controller/base.rb:194:in `process_action'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionpack-5.2.0/lib/abstract_controller/base.rb:134:in `process'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionpack-5.2.0/lib/action_controller/metal.rb:191:in `dispatch'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionpack-5.2.0/lib/action_controller/metal.rb:236:in `block in action'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/devise-4.6.2/lib/devise/failure_app.rb:23:in `call'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/devise-4.6.2/lib/devise/delegator.rb:7:in `call'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/warden-1.2.8/lib/warden/manager.rb:143:in `call_failure_app'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/warden-1.2.8/lib/warden/manager.rb:129:in `process_unauthenticated'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/warden-1.2.8/lib/warden/manager.rb:44:in `call'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/rack-2.0.7/lib/rack/tempfile_reaper.rb:15:in `call'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/rack-2.0.7/lib/rack/etag.rb:25:in `call'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/rack-2.0.7/lib/rack/conditional_get.rb:38:in `call'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/rack-2.0.7/lib/rack/head.rb:12:in `call'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionpack-5.2.0/lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/rack-2.0.7/lib/rack/session/abstract/id.rb:232:in `context'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/rack-2.0.7/lib/rack/session/abstract/id.rb:226:in `call'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionpack-5.2.0/lib/action_dispatch/middleware/cookies.rb:670:in `call'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/activerecord-5.2.0/lib/active_record/migration.rb:559:in `call'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionpack-5.2.0/lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/activesupport-5.2.0/lib/active_support/callbacks.rb:98:in `run_callbacks'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionpack-5.2.0/lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionpack-5.2.0/lib/action_dispatch/middleware/executor.rb:14:in `call'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionpack-5.2.0/lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionpack-5.2.0/lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/railties-5.2.0/lib/rails/rack/logger.rb:38:in `call_app'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/railties-5.2.0/lib/rails/rack/logger.rb:26:in `block in call'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/activesupport-5.2.0/lib/active_support/tagged_logging.rb:71:in `block in tagged'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/activesupport-5.2.0/lib/active_support/tagged_logging.rb:28:in `tagged'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/activesupport-5.2.0/lib/active_support/tagged_logging.rb:71:in `tagged'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/railties-5.2.0/lib/rails/rack/logger.rb:26:in `call'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/sprockets-rails-3.2.1/lib/sprockets/rails/quiet_assets.rb:13:in `call'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionpack-5.2.0/lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/request_store-1.4.1/lib/request_store/middleware.rb:19:in `call'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionpack-5.2.0/lib/action_dispatch/middleware/request_id.rb:27:in `call'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/rack-2.0.7/lib/rack/method_override.rb:22:in `call'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/rack-2.0.7/lib/rack/runtime.rb:22:in `call'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/activesupport-5.2.0/lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionpack-5.2.0/lib/action_dispatch/middleware/executor.rb:14:in `call'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionpack-5.2.0/lib/action_dispatch/middleware/static.rb:127:in `call'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/rack-2.0.7/lib/rack/sendfile.rb:111:in `call'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/sentry-raven-2.9.0/lib/raven/integrations/rack.rb:51:in `call'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/railties-5.2.0/lib/rails/engine.rb:524:in `call'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/puma-4.0.1/lib/puma/configuration.rb:228:in `call'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/puma-4.0.1/lib/puma/server.rb:657:in `handle_request'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/puma-4.0.1/lib/puma/server.rb:467:in `process_client'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/puma-4.0.1/lib/puma/server.rb:328:in `block in run'
+/home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/puma-4.0.1/lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+can't find record with friendly id: "main" excluded from capture: DSN not set
+  Rendered blocks/_header.slim (9.3ms)
+  Rendered /home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/rocket_cms-0.29.0/app/views/shared/_messages.slim (2.8ms)
+  Rendered blocks/_footer.slim (2.1ms)
+  Rendered /home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/rocket_cms-0.29.0/app/views/blocks/_counters.html (0.2ms)
+Completed 200 OK in 176ms (Views: 49.2ms | ActiveRecord: 1.5ms)
+
+

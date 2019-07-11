@@ -1,0 +1,8 @@
+{
+  "application.css": "http://localhost:4241/webpack/application.css",
+  "application.js": "http://localhost:4241/webpack/application.js",
+  "application.css.map": "http://localhost:4241/webpack/application.css.map",
+  "application.js.map": "http://localhost:4241/webpack/application.js.map",
+  "vendor.js": "http://localhost:4241/webpack/vendor.js",
+  "vendor.js.map": "http://localhost:4241/webpack/vendor.js.map"
+}
