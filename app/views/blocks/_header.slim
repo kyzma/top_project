@@ -1,2 +1,13 @@
 header.header
-  = render_navigation &navigation(:main)
+  .container
+    nav.header-nav
+      ul.header-nav__menu
+        li.header-nav__menu-item
+          a.header-nav__menu-link О нас
+        li.header-nav__menu-item
+          a.header-nav__menu-link Каталог
+        li.header-nav__menu-item
+          a.header-nav__menu-link Еще
+        li.header-nav__menu-item
+          a.header-nav__menu-link Контакты
+  //= render_navigation &navigation(:main)
