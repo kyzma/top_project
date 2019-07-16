@@ -23,7 +23,8 @@ html lang="ru"
       | document.body.classList.remove('no-js');
 
     main.main
-      = render 'shared/messages'
+      //= render 'shared/messages'
+      = render 'pages/catalog'
       = yield
 
     = render 'blocks/footer'
