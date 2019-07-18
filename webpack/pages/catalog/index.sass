@@ -4,10 +4,38 @@
   display: flex
   margin-bottom: 50px
 
-.catalog__filters-input
+.catalog__filters-select
+  width: 150px
   border: 1px solid #000
-  border-radius: 10px
-  padding: 10px 0
+  border-radius: 5px
+  padding: 10px 5px
+  -webkit-appearance: none
+  -moz-appearance: none
+  appearance: none
+  font-family: 'Gilroy', sans-serif
+  font-size: 16px
+  font-weight: 600
+  color: #28282b
+
+  &:not(last-child)
+    margin-right: 15px
+
+  option:disabled
+    display: none
+
+.catalog__filters-select--district
+  position: relative
+
+.dropdown
+  position: absolute
+  left: 0
+  top: 42px
+  width: 100%
+  max-height: 0
+  overflow: hidden
+
+.open
+  max-height: unset
 
 .catalog__list
   display: flex

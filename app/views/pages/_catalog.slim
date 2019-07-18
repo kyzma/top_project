@@ -1,13 +1,34 @@
-h1 Страница "Каталог"
 .catalog
   .container
-    .catalog__filters
-      input.catalog__filters-input
-      input.catalog__filters-input
-      input.catalog__filters-input
-      input.catalog__filters-input
-      input.catalog__filters-input
-      input.catalog__filters-input
+    form.catalog__filters
+      select.catalog__filters-select name="type"
+        option selected="true" disabled="true" Тип
+        option value="1" Все
+        option value="2" Квартира
+        option value="3" Дом
+      select.catalog__filters-select name="city"
+        option selected="true" disabled="true" Город
+        option value="1" Все
+        option value="2" Донецк
+        option value="3" Макеевка
+      .catalog__filters-select.catalog__filters-select--district name="district"
+        .dropdown
+          .cl 1
+          .cl 2
+          .cl 3
+          .cl 4
+          .cl 5
+          .cl 6
+
+
+
+        / option selected="true" disabled="true" Район
+        / option value="1" Калининский
+        / option value="2" Куйбышевский
+        / option value="3" Ленинский
+
+      select.catalog__filters-select name="type"
+      select.catalog__filters-select name="type"
 
     .catalog__list
       .catalog__list-card

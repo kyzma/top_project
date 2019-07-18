@@ -2965,3 +2965,547 @@ Processing by HomeController#index as HTML
 Completed 200 OK in 397ms (Views: 341.0ms | ActiveRecord: 1.0ms)
 
 
+  [1m[35m (4.5ms)[0m  [1m[34mSELECT "rails_admin_settings"."ns" FROM "rails_admin_settings"[0m
+  ↳ config/environment.rb:5
+  [1m[36mRailsAdminSettings::Setting Load (1.6ms)[0m  [1m[34mSELECT "rails_admin_settings".* FROM "rails_admin_settings" WHERE "rails_admin_settings"."ns" = $1[0m  [["ns", "main"]]
+  ↳ config/environment.rb:5
+Started GET "/" for 127.0.0.1 at 2019-07-18 22:03:02 +0300
+  [1m[35m (2.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/yurash/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+Processing by HomeController#index as HTML
+  [1m[36mPage Load (4.5ms)[0m  [1m[34mSELECT  "pages".* FROM "pages" WHERE "pages"."enabled" = $1 AND "pages"."fullpath" = $2 ORDER BY "pages"."id" ASC LIMIT $3[0m  [["enabled", true], ["fullpath", "/"], ["LIMIT", 1]]
+  ↳ /home/yurash/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+  Rendering /home/yurash/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/rocket_cms-0.29.0/app/views/home/index.slim within layouts/application
+  Rendered /home/yurash/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/rocket_cms-0.29.0/app/views/home/index.slim within layouts/application (31.7ms)
+  Rendered blocks/_header.slim (2.8ms)
+  Rendered pages/_catalog.slim (10.1ms)
+  Rendered blocks/_footer.slim (2.5ms)
+  Rendered /home/yurash/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/rocket_cms-0.29.0/app/views/blocks/_counters.html (3.3ms)
+Completed 200 OK in 861ms (Views: 690.4ms | ActiveRecord: 13.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-07-18 22:13:03 +0300
+Processing by HomeController#index as HTML
+  [1m[36mPage Load (2.6ms)[0m  [1m[34mSELECT  "pages".* FROM "pages" WHERE "pages"."enabled" = $1 AND "pages"."fullpath" = $2 ORDER BY "pages"."id" ASC LIMIT $3[0m  [["enabled", true], ["fullpath", "/"], ["LIMIT", 1]]
+  ↳ /home/yurash/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+  Rendering /home/yurash/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/rocket_cms-0.29.0/app/views/home/index.slim within layouts/application
+  Rendered /home/yurash/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/rocket_cms-0.29.0/app/views/home/index.slim within layouts/application (2.1ms)
+  [1m[36mRailsAdminSettings::Setting Load (2.4ms)[0m  [1m[34mSELECT "rails_admin_settings".* FROM "rails_admin_settings" WHERE "rails_admin_settings"."ns" = $1[0m  [["ns", "main"]]
+  ↳ app/views/layouts/application.slim:10
+  Rendered blocks/_header.slim (3.0ms)
+  Rendered pages/_catalog.slim (14.0ms)
+  Rendered blocks/_footer.slim (3.1ms)
+  Rendered /home/yurash/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/rocket_cms-0.29.0/app/views/blocks/_counters.html (0.2ms)
+Completed 200 OK in 400ms (Views: 341.4ms | ActiveRecord: 4.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-07-18 22:15:27 +0300
+Processing by HomeController#index as HTML
+  [1m[36mPage Load (1.1ms)[0m  [1m[34mSELECT  "pages".* FROM "pages" WHERE "pages"."enabled" = $1 AND "pages"."fullpath" = $2 ORDER BY "pages"."id" ASC LIMIT $3[0m  [["enabled", true], ["fullpath", "/"], ["LIMIT", 1]]
+  ↳ /home/yurash/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+  Rendering /home/yurash/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/rocket_cms-0.29.0/app/views/home/index.slim within layouts/application
+  Rendered /home/yurash/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/rocket_cms-0.29.0/app/views/home/index.slim within layouts/application (19.2ms)
+  [1m[36mRailsAdminSettings::Setting Load (0.5ms)[0m  [1m[34mSELECT "rails_admin_settings".* FROM "rails_admin_settings" WHERE "rails_admin_settings"."ns" = $1[0m  [["ns", "main"]]
+  ↳ app/views/layouts/application.slim:10
+  Rendered blocks/_header.slim (2.8ms)
+  Rendered pages/_catalog.slim (13.0ms)
+  Rendered blocks/_footer.slim (2.5ms)
+  Rendered /home/yurash/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/rocket_cms-0.29.0/app/views/blocks/_counters.html (0.9ms)
+Completed 200 OK in 423ms (Views: 355.7ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-07-18 22:18:49 +0300
+Processing by HomeController#index as HTML
+  [1m[36mPage Load (1.1ms)[0m  [1m[34mSELECT  "pages".* FROM "pages" WHERE "pages"."enabled" = $1 AND "pages"."fullpath" = $2 ORDER BY "pages"."id" ASC LIMIT $3[0m  [["enabled", true], ["fullpath", "/"], ["LIMIT", 1]]
+  ↳ /home/yurash/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+  Rendering /home/yurash/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/rocket_cms-0.29.0/app/views/home/index.slim within layouts/application
+  Rendered /home/yurash/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/rocket_cms-0.29.0/app/views/home/index.slim within layouts/application (1.9ms)
+  [1m[36mRailsAdminSettings::Setting Load (0.5ms)[0m  [1m[34mSELECT "rails_admin_settings".* FROM "rails_admin_settings" WHERE "rails_admin_settings"."ns" = $1[0m  [["ns", "main"]]
+  ↳ app/views/layouts/application.slim:10
+  Rendered blocks/_header.slim (2.7ms)
+  Rendered pages/_catalog.slim (11.0ms)
+  Rendered blocks/_footer.slim (2.6ms)
+  Rendered /home/yurash/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/rocket_cms-0.29.0/app/views/blocks/_counters.html (0.2ms)
+Completed 200 OK in 412ms (Views: 334.0ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-07-18 22:19:30 +0300
+Processing by HomeController#index as HTML
+  [1m[36mPage Load (0.6ms)[0m  [1m[34mSELECT  "pages".* FROM "pages" WHERE "pages"."enabled" = $1 AND "pages"."fullpath" = $2 ORDER BY "pages"."id" ASC LIMIT $3[0m  [["enabled", true], ["fullpath", "/"], ["LIMIT", 1]]
+  ↳ /home/yurash/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+  Rendering /home/yurash/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/rocket_cms-0.29.0/app/views/home/index.slim within layouts/application
+  Rendered /home/yurash/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/rocket_cms-0.29.0/app/views/home/index.slim within layouts/application (2.1ms)
+  [1m[36mRailsAdminSettings::Setting Load (0.6ms)[0m  [1m[34mSELECT "rails_admin_settings".* FROM "rails_admin_settings" WHERE "rails_admin_settings"."ns" = $1[0m  [["ns", "main"]]
+  ↳ app/views/layouts/application.slim:10
+  Rendered blocks/_header.slim (3.0ms)
+  Rendered pages/_catalog.slim (25.3ms)
+  Rendered blocks/_footer.slim (2.0ms)
+  Rendered /home/yurash/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/rocket_cms-0.29.0/app/views/blocks/_counters.html (0.4ms)
+Completed 200 OK in 401ms (Views: 349.1ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-07-18 22:19:49 +0300
+Processing by HomeController#index as HTML
+  [1m[36mPage Load (0.9ms)[0m  [1m[34mSELECT  "pages".* FROM "pages" WHERE "pages"."enabled" = $1 AND "pages"."fullpath" = $2 ORDER BY "pages"."id" ASC LIMIT $3[0m  [["enabled", true], ["fullpath", "/"], ["LIMIT", 1]]
+  ↳ /home/yurash/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+  Rendering /home/yurash/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/rocket_cms-0.29.0/app/views/home/index.slim within layouts/application
+  Rendered /home/yurash/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/rocket_cms-0.29.0/app/views/home/index.slim within layouts/application (1.5ms)
+  [1m[36mRailsAdminSettings::Setting Load (1.0ms)[0m  [1m[34mSELECT "rails_admin_settings".* FROM "rails_admin_settings" WHERE "rails_admin_settings"."ns" = $1[0m  [["ns", "main"]]
+  ↳ app/views/layouts/application.slim:10
+  Rendered blocks/_header.slim (2.2ms)
+  Rendered pages/_catalog.slim (8.7ms)
+  Rendered blocks/_footer.slim (1.9ms)
+  Rendered /home/yurash/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/rocket_cms-0.29.0/app/views/blocks/_counters.html (0.2ms)
+Completed 200 OK in 395ms (Views: 332.5ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-07-18 22:23:00 +0300
+Processing by HomeController#index as HTML
+  [1m[36mPage Load (0.6ms)[0m  [1m[34mSELECT  "pages".* FROM "pages" WHERE "pages"."enabled" = $1 AND "pages"."fullpath" = $2 ORDER BY "pages"."id" ASC LIMIT $3[0m  [["enabled", true], ["fullpath", "/"], ["LIMIT", 1]]
+  ↳ /home/yurash/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+  Rendering /home/yurash/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/rocket_cms-0.29.0/app/views/home/index.slim within layouts/application
+  Rendered /home/yurash/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/rocket_cms-0.29.0/app/views/home/index.slim within layouts/application (1.7ms)
+  [1m[36mRailsAdminSettings::Setting Load (0.5ms)[0m  [1m[34mSELECT "rails_admin_settings".* FROM "rails_admin_settings" WHERE "rails_admin_settings"."ns" = $1[0m  [["ns", "main"]]
+  ↳ app/views/layouts/application.slim:10
+  Rendered blocks/_header.slim (5.8ms)
+  Rendered pages/_catalog.slim (8.2ms)
+  Rendered blocks/_footer.slim (1.9ms)
+  Rendered /home/yurash/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/rocket_cms-0.29.0/app/views/blocks/_counters.html (0.2ms)
+Completed 200 OK in 388ms (Views: 336.4ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-07-18 22:24:31 +0300
+Processing by HomeController#index as HTML
+  [1m[36mPage Load (2.0ms)[0m  [1m[34mSELECT  "pages".* FROM "pages" WHERE "pages"."enabled" = $1 AND "pages"."fullpath" = $2 ORDER BY "pages"."id" ASC LIMIT $3[0m  [["enabled", true], ["fullpath", "/"], ["LIMIT", 1]]
+  ↳ /home/yurash/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+  Rendering /home/yurash/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/rocket_cms-0.29.0/app/views/home/index.slim within layouts/application
+  Rendered /home/yurash/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/rocket_cms-0.29.0/app/views/home/index.slim within layouts/application (1.5ms)
+  [1m[36mRailsAdminSettings::Setting Load (0.6ms)[0m  [1m[34mSELECT "rails_admin_settings".* FROM "rails_admin_settings" WHERE "rails_admin_settings"."ns" = $1[0m  [["ns", "main"]]
+  ↳ app/views/layouts/application.slim:10
+  Rendered blocks/_header.slim (2.2ms)
+  Rendered pages/_catalog.slim (8.0ms)
+  Rendered blocks/_footer.slim (1.7ms)
+  Rendered /home/yurash/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/rocket_cms-0.29.0/app/views/blocks/_counters.html (0.4ms)
+Completed 200 OK in 430ms (Views: 338.6ms | ActiveRecord: 2.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-07-18 22:28:45 +0300
+Processing by HomeController#index as HTML
+  [1m[36mPage Load (0.7ms)[0m  [1m[34mSELECT  "pages".* FROM "pages" WHERE "pages"."enabled" = $1 AND "pages"."fullpath" = $2 ORDER BY "pages"."id" ASC LIMIT $3[0m  [["enabled", true], ["fullpath", "/"], ["LIMIT", 1]]
+  ↳ /home/yurash/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+  Rendering /home/yurash/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/rocket_cms-0.29.0/app/views/home/index.slim within layouts/application
+  Rendered /home/yurash/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/rocket_cms-0.29.0/app/views/home/index.slim within layouts/application (1.5ms)
+  [1m[36mRailsAdminSettings::Setting Load (0.5ms)[0m  [1m[34mSELECT "rails_admin_settings".* FROM "rails_admin_settings" WHERE "rails_admin_settings"."ns" = $1[0m  [["ns", "main"]]
+  ↳ app/views/layouts/application.slim:10
+  Rendered blocks/_header.slim (2.2ms)
+  Rendered pages/_catalog.slim (7.9ms)
+  Rendered blocks/_footer.slim (2.1ms)
+  Rendered /home/yurash/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/rocket_cms-0.29.0/app/views/blocks/_counters.html (0.3ms)
+Completed 200 OK in 384ms (Views: 324.7ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-07-18 22:30:08 +0300
+Processing by HomeController#index as HTML
+  [1m[36mPage Load (0.6ms)[0m  [1m[34mSELECT  "pages".* FROM "pages" WHERE "pages"."enabled" = $1 AND "pages"."fullpath" = $2 ORDER BY "pages"."id" ASC LIMIT $3[0m  [["enabled", true], ["fullpath", "/"], ["LIMIT", 1]]
+  ↳ /home/yurash/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+  Rendering /home/yurash/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/rocket_cms-0.29.0/app/views/home/index.slim within layouts/application
+  Rendered /home/yurash/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/rocket_cms-0.29.0/app/views/home/index.slim within layouts/application (1.6ms)
+  [1m[36mRailsAdminSettings::Setting Load (0.7ms)[0m  [1m[34mSELECT "rails_admin_settings".* FROM "rails_admin_settings" WHERE "rails_admin_settings"."ns" = $1[0m  [["ns", "main"]]
+  ↳ app/views/layouts/application.slim:10
+  Rendered blocks/_header.slim (2.4ms)
+  Rendered pages/_catalog.slim (8.1ms)
+  Rendered blocks/_footer.slim (1.8ms)
+  Rendered /home/yurash/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/rocket_cms-0.29.0/app/views/blocks/_counters.html (0.4ms)
+Completed 200 OK in 394ms (Views: 326.5ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-07-18 22:30:20 +0300
+Processing by HomeController#index as HTML
+  [1m[36mPage Load (0.8ms)[0m  [1m[34mSELECT  "pages".* FROM "pages" WHERE "pages"."enabled" = $1 AND "pages"."fullpath" = $2 ORDER BY "pages"."id" ASC LIMIT $3[0m  [["enabled", true], ["fullpath", "/"], ["LIMIT", 1]]
+  ↳ /home/yurash/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+  Rendering /home/yurash/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/rocket_cms-0.29.0/app/views/home/index.slim within layouts/application
+  Rendered /home/yurash/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/rocket_cms-0.29.0/app/views/home/index.slim within layouts/application (1.5ms)
+  [1m[36mRailsAdminSettings::Setting Load (0.5ms)[0m  [1m[34mSELECT "rails_admin_settings".* FROM "rails_admin_settings" WHERE "rails_admin_settings"."ns" = $1[0m  [["ns", "main"]]
+  ↳ app/views/layouts/application.slim:10
+  Rendered blocks/_header.slim (2.3ms)
+  Rendered pages/_catalog.slim (9.0ms)
+  Rendered blocks/_footer.slim (2.6ms)
+  Rendered /home/yurash/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/rocket_cms-0.29.0/app/views/blocks/_counters.html (0.2ms)
+Completed 200 OK in 401ms (Views: 337.5ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-07-18 22:32:50 +0300
+Processing by HomeController#index as HTML
+  [1m[36mPage Load (0.6ms)[0m  [1m[34mSELECT  "pages".* FROM "pages" WHERE "pages"."enabled" = $1 AND "pages"."fullpath" = $2 ORDER BY "pages"."id" ASC LIMIT $3[0m  [["enabled", true], ["fullpath", "/"], ["LIMIT", 1]]
+  ↳ /home/yurash/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+  Rendering /home/yurash/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/rocket_cms-0.29.0/app/views/home/index.slim within layouts/application
+  Rendered /home/yurash/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/rocket_cms-0.29.0/app/views/home/index.slim within layouts/application (2.9ms)
+  [1m[36mRailsAdminSettings::Setting Load (2.0ms)[0m  [1m[34mSELECT "rails_admin_settings".* FROM "rails_admin_settings" WHERE "rails_admin_settings"."ns" = $1[0m  [["ns", "main"]]
+  ↳ app/views/layouts/application.slim:10
+  Rendered blocks/_header.slim (2.1ms)
+  Rendered pages/_catalog.slim (28.4ms)
+  Rendered blocks/_footer.slim (2.0ms)
+  Rendered /home/yurash/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/rocket_cms-0.29.0/app/views/blocks/_counters.html (0.2ms)
+Completed 200 OK in 473ms (Views: 419.7ms | ActiveRecord: 2.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-07-18 22:32:52 +0300
+Processing by HomeController#index as HTML
+  [1m[36mPage Load (0.5ms)[0m  [1m[34mSELECT  "pages".* FROM "pages" WHERE "pages"."enabled" = $1 AND "pages"."fullpath" = $2 ORDER BY "pages"."id" ASC LIMIT $3[0m  [["enabled", true], ["fullpath", "/"], ["LIMIT", 1]]
+  ↳ /home/yurash/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+  Rendering /home/yurash/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/rocket_cms-0.29.0/app/views/home/index.slim within layouts/application
+  Rendered /home/yurash/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/rocket_cms-0.29.0/app/views/home/index.slim within layouts/application (2.1ms)
+  [1m[36mRailsAdminSettings::Setting Load (0.6ms)[0m  [1m[34mSELECT "rails_admin_settings".* FROM "rails_admin_settings" WHERE "rails_admin_settings"."ns" = $1[0m  [["ns", "main"]]
+  ↳ app/views/layouts/application.slim:10
+  Rendered blocks/_header.slim (2.1ms)
+  Rendered pages/_catalog.slim (9.1ms)
+  Rendered blocks/_footer.slim (2.0ms)
+  Rendered /home/yurash/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/rocket_cms-0.29.0/app/views/blocks/_counters.html (0.2ms)
+Completed 200 OK in 383ms (Views: 331.1ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-07-18 22:33:17 +0300
+Processing by HomeController#index as HTML
+  [1m[36mPage Load (0.5ms)[0m  [1m[34mSELECT  "pages".* FROM "pages" WHERE "pages"."enabled" = $1 AND "pages"."fullpath" = $2 ORDER BY "pages"."id" ASC LIMIT $3[0m  [["enabled", true], ["fullpath", "/"], ["LIMIT", 1]]
+  ↳ /home/yurash/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+  Rendering /home/yurash/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/rocket_cms-0.29.0/app/views/home/index.slim within layouts/application
+  Rendered /home/yurash/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/rocket_cms-0.29.0/app/views/home/index.slim within layouts/application (1.4ms)
+  [1m[36mRailsAdminSettings::Setting Load (0.5ms)[0m  [1m[34mSELECT "rails_admin_settings".* FROM "rails_admin_settings" WHERE "rails_admin_settings"."ns" = $1[0m  [["ns", "main"]]
+  ↳ app/views/layouts/application.slim:10
+  Rendered blocks/_header.slim (2.1ms)
+  Rendered pages/_catalog.slim (8.7ms)
+  Rendered blocks/_footer.slim (1.9ms)
+  Rendered /home/yurash/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/rocket_cms-0.29.0/app/views/blocks/_counters.html (0.2ms)
+Completed 200 OK in 383ms (Views: 330.5ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-07-18 22:33:42 +0300
+Processing by HomeController#index as HTML
+  [1m[36mPage Load (1.4ms)[0m  [1m[34mSELECT  "pages".* FROM "pages" WHERE "pages"."enabled" = $1 AND "pages"."fullpath" = $2 ORDER BY "pages"."id" ASC LIMIT $3[0m  [["enabled", true], ["fullpath", "/"], ["LIMIT", 1]]
+  ↳ /home/yurash/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+  Rendering /home/yurash/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/rocket_cms-0.29.0/app/views/home/index.slim within layouts/application
+  Rendered /home/yurash/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/rocket_cms-0.29.0/app/views/home/index.slim within layouts/application (1.6ms)
+  [1m[36mRailsAdminSettings::Setting Load (0.6ms)[0m  [1m[34mSELECT "rails_admin_settings".* FROM "rails_admin_settings" WHERE "rails_admin_settings"."ns" = $1[0m  [["ns", "main"]]
+  ↳ app/views/layouts/application.slim:10
+  Rendered blocks/_header.slim (2.7ms)
+  Rendered pages/_catalog.slim (8.4ms)
+  Rendered blocks/_footer.slim (1.8ms)
+  Rendered /home/yurash/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/rocket_cms-0.29.0/app/views/blocks/_counters.html (0.3ms)
+Completed 200 OK in 408ms (Views: 333.1ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-07-18 22:34:14 +0300
+Processing by HomeController#index as HTML
+  [1m[36mPage Load (0.6ms)[0m  [1m[34mSELECT  "pages".* FROM "pages" WHERE "pages"."enabled" = $1 AND "pages"."fullpath" = $2 ORDER BY "pages"."id" ASC LIMIT $3[0m  [["enabled", true], ["fullpath", "/"], ["LIMIT", 1]]
+  ↳ /home/yurash/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+  Rendering /home/yurash/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/rocket_cms-0.29.0/app/views/home/index.slim within layouts/application
+  Rendered /home/yurash/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/rocket_cms-0.29.0/app/views/home/index.slim within layouts/application (1.5ms)
+  [1m[36mRailsAdminSettings::Setting Load (0.6ms)[0m  [1m[34mSELECT "rails_admin_settings".* FROM "rails_admin_settings" WHERE "rails_admin_settings"."ns" = $1[0m  [["ns", "main"]]
+  ↳ app/views/layouts/application.slim:10
+  Rendered blocks/_header.slim (2.1ms)
+  Rendered pages/_catalog.slim (8.4ms)
+  Rendered blocks/_footer.slim (1.8ms)
+  Rendered /home/yurash/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/rocket_cms-0.29.0/app/views/blocks/_counters.html (0.2ms)
+Completed 200 OK in 398ms (Views: 330.2ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-07-18 22:36:57 +0300
+Processing by HomeController#index as HTML
+  [1m[36mPage Load (0.5ms)[0m  [1m[34mSELECT  "pages".* FROM "pages" WHERE "pages"."enabled" = $1 AND "pages"."fullpath" = $2 ORDER BY "pages"."id" ASC LIMIT $3[0m  [["enabled", true], ["fullpath", "/"], ["LIMIT", 1]]
+  ↳ /home/yurash/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+  Rendering /home/yurash/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/rocket_cms-0.29.0/app/views/home/index.slim within layouts/application
+  Rendered /home/yurash/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/rocket_cms-0.29.0/app/views/home/index.slim within layouts/application (1.5ms)
+  [1m[36mRailsAdminSettings::Setting Load (0.9ms)[0m  [1m[34mSELECT "rails_admin_settings".* FROM "rails_admin_settings" WHERE "rails_admin_settings"."ns" = $1[0m  [["ns", "main"]]
+  ↳ app/views/layouts/application.slim:10
+  Rendered blocks/_header.slim (2.2ms)
+  Rendered pages/_catalog.slim (31.3ms)
+  Rendered blocks/_footer.slim (3.0ms)
+  Rendered /home/yurash/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/rocket_cms-0.29.0/app/views/blocks/_counters.html (0.3ms)
+Completed 200 OK in 411ms (Views: 359.0ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-07-18 22:37:06 +0300
+Processing by HomeController#index as HTML
+  [1m[36mPage Load (0.6ms)[0m  [1m[34mSELECT  "pages".* FROM "pages" WHERE "pages"."enabled" = $1 AND "pages"."fullpath" = $2 ORDER BY "pages"."id" ASC LIMIT $3[0m  [["enabled", true], ["fullpath", "/"], ["LIMIT", 1]]
+  ↳ /home/yurash/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+  Rendering /home/yurash/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/rocket_cms-0.29.0/app/views/home/index.slim within layouts/application
+  Rendered /home/yurash/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/rocket_cms-0.29.0/app/views/home/index.slim within layouts/application (1.6ms)
+  [1m[36mRailsAdminSettings::Setting Load (0.6ms)[0m  [1m[34mSELECT "rails_admin_settings".* FROM "rails_admin_settings" WHERE "rails_admin_settings"."ns" = $1[0m  [["ns", "main"]]
+  ↳ app/views/layouts/application.slim:10
+  Rendered blocks/_header.slim (2.1ms)
+  Rendered pages/_catalog.slim (8.2ms)
+  Rendered blocks/_footer.slim (1.7ms)
+  Rendered /home/yurash/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/rocket_cms-0.29.0/app/views/blocks/_counters.html (0.2ms)
+Completed 200 OK in 377ms (Views: 323.1ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-07-18 22:37:09 +0300
+Processing by HomeController#index as HTML
+  [1m[36mPage Load (0.6ms)[0m  [1m[34mSELECT  "pages".* FROM "pages" WHERE "pages"."enabled" = $1 AND "pages"."fullpath" = $2 ORDER BY "pages"."id" ASC LIMIT $3[0m  [["enabled", true], ["fullpath", "/"], ["LIMIT", 1]]
+  ↳ /home/yurash/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+  Rendering /home/yurash/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/rocket_cms-0.29.0/app/views/home/index.slim within layouts/application
+  Rendered /home/yurash/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/rocket_cms-0.29.0/app/views/home/index.slim within layouts/application (1.5ms)
+  [1m[36mRailsAdminSettings::Setting Load (0.5ms)[0m  [1m[34mSELECT "rails_admin_settings".* FROM "rails_admin_settings" WHERE "rails_admin_settings"."ns" = $1[0m  [["ns", "main"]]
+  ↳ app/views/layouts/application.slim:10
+  Rendered blocks/_header.slim (2.6ms)
+  Rendered pages/_catalog.slim (10.2ms)
+  Rendered blocks/_footer.slim (2.7ms)
+  Rendered /home/yurash/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/rocket_cms-0.29.0/app/views/blocks/_counters.html (0.2ms)
+Completed 200 OK in 383ms (Views: 323.2ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-07-18 22:37:14 +0300
+Processing by HomeController#index as HTML
+  [1m[36mPage Load (1.0ms)[0m  [1m[34mSELECT  "pages".* FROM "pages" WHERE "pages"."enabled" = $1 AND "pages"."fullpath" = $2 ORDER BY "pages"."id" ASC LIMIT $3[0m  [["enabled", true], ["fullpath", "/"], ["LIMIT", 1]]
+  ↳ /home/yurash/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+  Rendering /home/yurash/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/rocket_cms-0.29.0/app/views/home/index.slim within layouts/application
+  Rendered /home/yurash/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/rocket_cms-0.29.0/app/views/home/index.slim within layouts/application (1.9ms)
+  [1m[36mRailsAdminSettings::Setting Load (0.5ms)[0m  [1m[34mSELECT "rails_admin_settings".* FROM "rails_admin_settings" WHERE "rails_admin_settings"."ns" = $1[0m  [["ns", "main"]]
+  ↳ app/views/layouts/application.slim:10
+  Rendered blocks/_header.slim (3.2ms)
+  Rendered pages/_catalog.slim (11.2ms)
+  Rendered blocks/_footer.slim (3.0ms)
+  Rendered /home/yurash/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/rocket_cms-0.29.0/app/views/blocks/_counters.html (0.3ms)
+Completed 200 OK in 409ms (Views: 341.1ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-07-18 22:39:32 +0300
+Processing by HomeController#index as HTML
+  [1m[36mPage Load (2.0ms)[0m  [1m[34mSELECT  "pages".* FROM "pages" WHERE "pages"."enabled" = $1 AND "pages"."fullpath" = $2 ORDER BY "pages"."id" ASC LIMIT $3[0m  [["enabled", true], ["fullpath", "/"], ["LIMIT", 1]]
+  ↳ /home/yurash/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+  Rendering /home/yurash/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/rocket_cms-0.29.0/app/views/home/index.slim within layouts/application
+  Rendered /home/yurash/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/rocket_cms-0.29.0/app/views/home/index.slim within layouts/application (1.6ms)
+  [1m[36mRailsAdminSettings::Setting Load (0.7ms)[0m  [1m[34mSELECT "rails_admin_settings".* FROM "rails_admin_settings" WHERE "rails_admin_settings"."ns" = $1[0m  [["ns", "main"]]
+  ↳ app/views/layouts/application.slim:10
+  Rendered blocks/_header.slim (2.3ms)
+  Rendered pages/_catalog.slim (9.6ms)
+  Rendered blocks/_footer.slim (1.9ms)
+  Rendered /home/yurash/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/rocket_cms-0.29.0/app/views/blocks/_counters.html (0.2ms)
+Completed 200 OK in 399ms (Views: 329.4ms | ActiveRecord: 2.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-07-18 22:40:52 +0300
+Processing by HomeController#index as HTML
+  [1m[36mPage Load (0.6ms)[0m  [1m[34mSELECT  "pages".* FROM "pages" WHERE "pages"."enabled" = $1 AND "pages"."fullpath" = $2 ORDER BY "pages"."id" ASC LIMIT $3[0m  [["enabled", true], ["fullpath", "/"], ["LIMIT", 1]]
+  ↳ /home/yurash/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+  Rendering /home/yurash/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/rocket_cms-0.29.0/app/views/home/index.slim within layouts/application
+  Rendered /home/yurash/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/rocket_cms-0.29.0/app/views/home/index.slim within layouts/application (1.9ms)
+  [1m[36mRailsAdminSettings::Setting Load (0.6ms)[0m  [1m[34mSELECT "rails_admin_settings".* FROM "rails_admin_settings" WHERE "rails_admin_settings"."ns" = $1[0m  [["ns", "main"]]
+  ↳ app/views/layouts/application.slim:10
+  Rendered blocks/_header.slim (2.2ms)
+  Rendered pages/_catalog.slim (7.4ms)
+  Rendered blocks/_footer.slim (2.5ms)
+  Rendered /home/yurash/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/rocket_cms-0.29.0/app/views/blocks/_counters.html (0.5ms)
+Completed 200 OK in 390ms (Views: 333.4ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-07-18 22:42:37 +0300
+Processing by HomeController#index as HTML
+  [1m[36mPage Load (1.2ms)[0m  [1m[34mSELECT  "pages".* FROM "pages" WHERE "pages"."enabled" = $1 AND "pages"."fullpath" = $2 ORDER BY "pages"."id" ASC LIMIT $3[0m  [["enabled", true], ["fullpath", "/"], ["LIMIT", 1]]
+  ↳ /home/yurash/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+  Rendering /home/yurash/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/rocket_cms-0.29.0/app/views/home/index.slim within layouts/application
+  Rendered /home/yurash/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/rocket_cms-0.29.0/app/views/home/index.slim within layouts/application (1.5ms)
+  [1m[36mRailsAdminSettings::Setting Load (0.6ms)[0m  [1m[34mSELECT "rails_admin_settings".* FROM "rails_admin_settings" WHERE "rails_admin_settings"."ns" = $1[0m  [["ns", "main"]]
+  ↳ app/views/layouts/application.slim:10
+  Rendered blocks/_header.slim (2.3ms)
+  Rendered pages/_catalog.slim (8.4ms)
+  Rendered blocks/_footer.slim (3.0ms)
+  Rendered /home/yurash/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/rocket_cms-0.29.0/app/views/blocks/_counters.html (0.3ms)
+Completed 200 OK in 408ms (Views: 326.2ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-07-18 22:44:04 +0300
+Processing by HomeController#index as HTML
+  [1m[36mPage Load (0.6ms)[0m  [1m[34mSELECT  "pages".* FROM "pages" WHERE "pages"."enabled" = $1 AND "pages"."fullpath" = $2 ORDER BY "pages"."id" ASC LIMIT $3[0m  [["enabled", true], ["fullpath", "/"], ["LIMIT", 1]]
+  ↳ /home/yurash/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+  Rendering /home/yurash/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/rocket_cms-0.29.0/app/views/home/index.slim within layouts/application
+  Rendered /home/yurash/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/rocket_cms-0.29.0/app/views/home/index.slim within layouts/application (2.1ms)
+  [1m[36mRailsAdminSettings::Setting Load (0.5ms)[0m  [1m[34mSELECT "rails_admin_settings".* FROM "rails_admin_settings" WHERE "rails_admin_settings"."ns" = $1[0m  [["ns", "main"]]
+  ↳ app/views/layouts/application.slim:10
+  Rendered blocks/_header.slim (2.3ms)
+  Rendered pages/_catalog.slim (9.2ms)
+  Rendered blocks/_footer.slim (1.7ms)
+  Rendered /home/yurash/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/rocket_cms-0.29.0/app/views/blocks/_counters.html (0.2ms)
+Completed 200 OK in 371ms (Views: 319.7ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-07-18 22:44:49 +0300
+Processing by HomeController#index as HTML
+  [1m[36mPage Load (0.6ms)[0m  [1m[34mSELECT  "pages".* FROM "pages" WHERE "pages"."enabled" = $1 AND "pages"."fullpath" = $2 ORDER BY "pages"."id" ASC LIMIT $3[0m  [["enabled", true], ["fullpath", "/"], ["LIMIT", 1]]
+  ↳ /home/yurash/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+  Rendering /home/yurash/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/rocket_cms-0.29.0/app/views/home/index.slim within layouts/application
+  Rendered /home/yurash/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/rocket_cms-0.29.0/app/views/home/index.slim within layouts/application (1.6ms)
+  [1m[36mRailsAdminSettings::Setting Load (0.5ms)[0m  [1m[34mSELECT "rails_admin_settings".* FROM "rails_admin_settings" WHERE "rails_admin_settings"."ns" = $1[0m  [["ns", "main"]]
+  ↳ app/views/layouts/application.slim:10
+  Rendered blocks/_header.slim (2.2ms)
+  Rendered pages/_catalog.slim (7.6ms)
+  Rendered blocks/_footer.slim (1.8ms)
+  Rendered /home/yurash/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/rocket_cms-0.29.0/app/views/blocks/_counters.html (0.2ms)
+Completed 200 OK in 386ms (Views: 332.3ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-07-18 22:45:23 +0300
+Processing by HomeController#index as HTML
+  [1m[36mPage Load (0.6ms)[0m  [1m[34mSELECT  "pages".* FROM "pages" WHERE "pages"."enabled" = $1 AND "pages"."fullpath" = $2 ORDER BY "pages"."id" ASC LIMIT $3[0m  [["enabled", true], ["fullpath", "/"], ["LIMIT", 1]]
+  ↳ /home/yurash/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+  Rendering /home/yurash/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/rocket_cms-0.29.0/app/views/home/index.slim within layouts/application
+  Rendered /home/yurash/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/rocket_cms-0.29.0/app/views/home/index.slim within layouts/application (1.6ms)
+  [1m[36mRailsAdminSettings::Setting Load (0.6ms)[0m  [1m[34mSELECT "rails_admin_settings".* FROM "rails_admin_settings" WHERE "rails_admin_settings"."ns" = $1[0m  [["ns", "main"]]
+  ↳ app/views/layouts/application.slim:10
+  Rendered blocks/_header.slim (2.0ms)
+  Rendered pages/_catalog.slim (7.7ms)
+  Rendered blocks/_footer.slim (1.8ms)
+  Rendered /home/yurash/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/rocket_cms-0.29.0/app/views/blocks/_counters.html (0.2ms)
+Completed 200 OK in 371ms (Views: 317.5ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-07-18 22:46:24 +0300
+Processing by HomeController#index as HTML
+  [1m[36mPage Load (1.1ms)[0m  [1m[34mSELECT  "pages".* FROM "pages" WHERE "pages"."enabled" = $1 AND "pages"."fullpath" = $2 ORDER BY "pages"."id" ASC LIMIT $3[0m  [["enabled", true], ["fullpath", "/"], ["LIMIT", 1]]
+  ↳ /home/yurash/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+  Rendering /home/yurash/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/rocket_cms-0.29.0/app/views/home/index.slim within layouts/application
+  Rendered /home/yurash/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/rocket_cms-0.29.0/app/views/home/index.slim within layouts/application (2.1ms)
+  [1m[36mRailsAdminSettings::Setting Load (0.7ms)[0m  [1m[34mSELECT "rails_admin_settings".* FROM "rails_admin_settings" WHERE "rails_admin_settings"."ns" = $1[0m  [["ns", "main"]]
+  ↳ app/views/layouts/application.slim:10
+  Rendered blocks/_header.slim (2.9ms)
+  Rendered pages/_catalog.slim (12.8ms)
+  Rendered blocks/_footer.slim (2.1ms)
+  Rendered /home/yurash/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/rocket_cms-0.29.0/app/views/blocks/_counters.html (0.2ms)
+Completed 200 OK in 417ms (Views: 338.5ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-07-18 22:46:51 +0300
+Processing by HomeController#index as HTML
+  [1m[36mPage Load (1.7ms)[0m  [1m[34mSELECT  "pages".* FROM "pages" WHERE "pages"."enabled" = $1 AND "pages"."fullpath" = $2 ORDER BY "pages"."id" ASC LIMIT $3[0m  [["enabled", true], ["fullpath", "/"], ["LIMIT", 1]]
+  ↳ /home/yurash/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+  Rendering /home/yurash/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/rocket_cms-0.29.0/app/views/home/index.slim within layouts/application
+  Rendered /home/yurash/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/rocket_cms-0.29.0/app/views/home/index.slim within layouts/application (1.4ms)
+  [1m[36mRailsAdminSettings::Setting Load (0.5ms)[0m  [1m[34mSELECT "rails_admin_settings".* FROM "rails_admin_settings" WHERE "rails_admin_settings"."ns" = $1[0m  [["ns", "main"]]
+  ↳ app/views/layouts/application.slim:10
+  Rendered blocks/_header.slim (2.4ms)
+  Rendered pages/_catalog.slim (10.4ms)
+  Rendered blocks/_footer.slim (2.1ms)
+  Rendered /home/yurash/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/rocket_cms-0.29.0/app/views/blocks/_counters.html (0.2ms)
+Completed 200 OK in 413ms (Views: 325.7ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-07-18 22:48:49 +0300
+Processing by HomeController#index as HTML
+  [1m[36mPage Load (0.6ms)[0m  [1m[34mSELECT  "pages".* FROM "pages" WHERE "pages"."enabled" = $1 AND "pages"."fullpath" = $2 ORDER BY "pages"."id" ASC LIMIT $3[0m  [["enabled", true], ["fullpath", "/"], ["LIMIT", 1]]
+  ↳ /home/yurash/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+  Rendering /home/yurash/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/rocket_cms-0.29.0/app/views/home/index.slim within layouts/application
+  Rendered /home/yurash/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/rocket_cms-0.29.0/app/views/home/index.slim within layouts/application (1.5ms)
+  [1m[36mRailsAdminSettings::Setting Load (0.5ms)[0m  [1m[34mSELECT "rails_admin_settings".* FROM "rails_admin_settings" WHERE "rails_admin_settings"."ns" = $1[0m  [["ns", "main"]]
+  ↳ app/views/layouts/application.slim:10
+  Rendered blocks/_header.slim (2.2ms)
+  Rendered pages/_catalog.slim (7.3ms)
+  Rendered blocks/_footer.slim (2.1ms)
+  Rendered /home/yurash/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/rocket_cms-0.29.0/app/views/blocks/_counters.html (0.2ms)
+Completed 200 OK in 379ms (Views: 325.3ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-07-18 22:49:10 +0300
+Processing by HomeController#index as HTML
+  [1m[36mPage Load (0.8ms)[0m  [1m[34mSELECT  "pages".* FROM "pages" WHERE "pages"."enabled" = $1 AND "pages"."fullpath" = $2 ORDER BY "pages"."id" ASC LIMIT $3[0m  [["enabled", true], ["fullpath", "/"], ["LIMIT", 1]]
+  ↳ /home/yurash/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+  Rendering /home/yurash/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/rocket_cms-0.29.0/app/views/home/index.slim within layouts/application
+  Rendered /home/yurash/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/rocket_cms-0.29.0/app/views/home/index.slim within layouts/application (1.9ms)
+  [1m[36mRailsAdminSettings::Setting Load (0.6ms)[0m  [1m[34mSELECT "rails_admin_settings".* FROM "rails_admin_settings" WHERE "rails_admin_settings"."ns" = $1[0m  [["ns", "main"]]
+  ↳ app/views/layouts/application.slim:10
+  Rendered blocks/_header.slim (2.0ms)
+  Rendered pages/_catalog.slim (10.0ms)
+  Rendered blocks/_footer.slim (1.8ms)
+  Rendered /home/yurash/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/rocket_cms-0.29.0/app/views/blocks/_counters.html (0.2ms)
+Completed 200 OK in 415ms (Views: 352.7ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-07-18 22:49:42 +0300
+Processing by HomeController#index as HTML
+  [1m[36mPage Load (1.0ms)[0m  [1m[34mSELECT  "pages".* FROM "pages" WHERE "pages"."enabled" = $1 AND "pages"."fullpath" = $2 ORDER BY "pages"."id" ASC LIMIT $3[0m  [["enabled", true], ["fullpath", "/"], ["LIMIT", 1]]
+  ↳ /home/yurash/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+  Rendering /home/yurash/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/rocket_cms-0.29.0/app/views/home/index.slim within layouts/application
+  Rendered /home/yurash/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/rocket_cms-0.29.0/app/views/home/index.slim within layouts/application (1.5ms)
+  [1m[36mRailsAdminSettings::Setting Load (0.6ms)[0m  [1m[34mSELECT "rails_admin_settings".* FROM "rails_admin_settings" WHERE "rails_admin_settings"."ns" = $1[0m  [["ns", "main"]]
+  ↳ app/views/layouts/application.slim:10
+  Rendered blocks/_header.slim (3.8ms)
+  Rendered pages/_catalog.slim (7.8ms)
+  Rendered blocks/_footer.slim (1.9ms)
+  Rendered /home/yurash/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/rocket_cms-0.29.0/app/views/blocks/_counters.html (0.2ms)
+Completed 200 OK in 412ms (Views: 328.9ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-07-18 22:52:19 +0300
+Processing by HomeController#index as HTML
+  [1m[36mPage Load (0.9ms)[0m  [1m[34mSELECT  "pages".* FROM "pages" WHERE "pages"."enabled" = $1 AND "pages"."fullpath" = $2 ORDER BY "pages"."id" ASC LIMIT $3[0m  [["enabled", true], ["fullpath", "/"], ["LIMIT", 1]]
+  ↳ /home/yurash/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+  Rendering /home/yurash/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/rocket_cms-0.29.0/app/views/home/index.slim within layouts/application
+  Rendered /home/yurash/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/rocket_cms-0.29.0/app/views/home/index.slim within layouts/application (1.7ms)
+  [1m[36mRailsAdminSettings::Setting Load (0.7ms)[0m  [1m[34mSELECT "rails_admin_settings".* FROM "rails_admin_settings" WHERE "rails_admin_settings"."ns" = $1[0m  [["ns", "main"]]
+  ↳ app/views/layouts/application.slim:10
+  Rendered blocks/_header.slim (3.0ms)
+  Rendered pages/_catalog.slim (12.9ms)
+  Rendered blocks/_footer.slim (2.6ms)
+  Rendered /home/yurash/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/rocket_cms-0.29.0/app/views/blocks/_counters.html (0.2ms)
+Completed 200 OK in 454ms (Views: 344.0ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-07-18 22:52:47 +0300
+Processing by HomeController#index as HTML
+  [1m[36mPage Load (0.7ms)[0m  [1m[34mSELECT  "pages".* FROM "pages" WHERE "pages"."enabled" = $1 AND "pages"."fullpath" = $2 ORDER BY "pages"."id" ASC LIMIT $3[0m  [["enabled", true], ["fullpath", "/"], ["LIMIT", 1]]
+  ↳ /home/yurash/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+  Rendering /home/yurash/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/rocket_cms-0.29.0/app/views/home/index.slim within layouts/application
+  Rendered /home/yurash/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/rocket_cms-0.29.0/app/views/home/index.slim within layouts/application (1.6ms)
+  [1m[36mRailsAdminSettings::Setting Load (0.5ms)[0m  [1m[34mSELECT "rails_admin_settings".* FROM "rails_admin_settings" WHERE "rails_admin_settings"."ns" = $1[0m  [["ns", "main"]]
+  ↳ app/views/layouts/application.slim:10
+  Rendered blocks/_header.slim (2.2ms)
+  Rendered pages/_catalog.slim (9.0ms)
+  Rendered blocks/_footer.slim (1.7ms)
+  Rendered /home/yurash/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/rocket_cms-0.29.0/app/views/blocks/_counters.html (0.2ms)
+Completed 200 OK in 386ms (Views: 328.2ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-07-18 23:04:56 +0300
+Processing by HomeController#index as HTML
+  [1m[36mPage Load (2.9ms)[0m  [1m[34mSELECT  "pages".* FROM "pages" WHERE "pages"."enabled" = $1 AND "pages"."fullpath" = $2 ORDER BY "pages"."id" ASC LIMIT $3[0m  [["enabled", true], ["fullpath", "/"], ["LIMIT", 1]]
+  ↳ /home/yurash/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+  Rendering /home/yurash/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/rocket_cms-0.29.0/app/views/home/index.slim within layouts/application
+  Rendered /home/yurash/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/rocket_cms-0.29.0/app/views/home/index.slim within layouts/application (1.5ms)
+  [1m[36mRailsAdminSettings::Setting Load (2.1ms)[0m  [1m[34mSELECT "rails_admin_settings".* FROM "rails_admin_settings" WHERE "rails_admin_settings"."ns" = $1[0m  [["ns", "main"]]
+  ↳ app/views/layouts/application.slim:10
+  Rendered blocks/_header.slim (2.7ms)
+  Rendered pages/_catalog.slim (8.0ms)
+  Rendered blocks/_footer.slim (19.3ms)
+  Rendered /home/yurash/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/rocket_cms-0.29.0/app/views/blocks/_counters.html (0.2ms)
+Completed 200 OK in 401ms (Views: 345.0ms | ActiveRecord: 5.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-07-18 23:05:32 +0300
+Processing by HomeController#index as HTML
+  [1m[36mPage Load (0.6ms)[0m  [1m[34mSELECT  "pages".* FROM "pages" WHERE "pages"."enabled" = $1 AND "pages"."fullpath" = $2 ORDER BY "pages"."id" ASC LIMIT $3[0m  [["enabled", true], ["fullpath", "/"], ["LIMIT", 1]]
+  ↳ /home/yurash/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+  Rendering /home/yurash/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/rocket_cms-0.29.0/app/views/home/index.slim within layouts/application
+  Rendered /home/yurash/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/rocket_cms-0.29.0/app/views/home/index.slim within layouts/application (1.6ms)
+  [1m[36mRailsAdminSettings::Setting Load (0.6ms)[0m  [1m[34mSELECT "rails_admin_settings".* FROM "rails_admin_settings" WHERE "rails_admin_settings"."ns" = $1[0m  [["ns", "main"]]
+  ↳ app/views/layouts/application.slim:10
+  Rendered blocks/_header.slim (2.1ms)
+  Rendered pages/_catalog.slim (9.1ms)
+  Rendered blocks/_footer.slim (1.8ms)
+  Rendered /home/yurash/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/rocket_cms-0.29.0/app/views/blocks/_counters.html (0.2ms)
+Completed 200 OK in 398ms (Views: 337.9ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-07-18 23:06:15 +0300
+Processing by HomeController#index as HTML
+  [1m[36mPage Load (0.6ms)[0m  [1m[34mSELECT  "pages".* FROM "pages" WHERE "pages"."enabled" = $1 AND "pages"."fullpath" = $2 ORDER BY "pages"."id" ASC LIMIT $3[0m  [["enabled", true], ["fullpath", "/"], ["LIMIT", 1]]
+  ↳ /home/yurash/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+  Rendering /home/yurash/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/rocket_cms-0.29.0/app/views/home/index.slim within layouts/application
+  Rendered /home/yurash/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/rocket_cms-0.29.0/app/views/home/index.slim within layouts/application (1.5ms)
+  [1m[36mRailsAdminSettings::Setting Load (0.5ms)[0m  [1m[34mSELECT "rails_admin_settings".* FROM "rails_admin_settings" WHERE "rails_admin_settings"."ns" = $1[0m  [["ns", "main"]]
+  ↳ app/views/layouts/application.slim:10
+  Rendered blocks/_header.slim (2.0ms)
+  Rendered pages/_catalog.slim (8.6ms)
+  Rendered blocks/_footer.slim (1.8ms)
+  Rendered /home/yurash/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/rocket_cms-0.29.0/app/views/blocks/_counters.html (0.2ms)
+Completed 200 OK in 376ms (Views: 323.6ms | ActiveRecord: 1.2ms)
+
+
