@@ -11,14 +11,24 @@
         option value="1" Все
         option value="2" Донецк
         option value="3" Макеевка
-      .catalog__filters-select.catalog__filters-select--district name="district"
-        .dropdown
-          .cl 1
-          .cl 2
-          .cl 3
-          .cl 4
-          .cl 5
-          .cl 6
+      .catalog__filters-select.catalog__filters-select--district#district name="district"
+        .district__dropdown#dropdown
+          label.district__label
+            | Буденновский
+            input type="checkbox" value="1"
+          label.district__label
+            | Калининский
+            input type="checkbox" value="2"
+          label.district__label
+            | Киевский
+            input type="checkbox" value="3"
+          label.district__label
+            | Куйбышевский
+            input type="checkbox" value="4"
+          label.district__label
+            | Ленинский
+            input type="checkbox" value="5"
+
 
 
 

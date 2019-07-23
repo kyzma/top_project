@@ -3,7 +3,9 @@
   "application.js": "http://localhost:4241/webpack/application.js",
   "application.css.map": "http://localhost:4241/webpack/application.css.map",
   "application.js.map": "http://localhost:4241/webpack/application.js.map",
+  "vendor.css": "http://localhost:4241/webpack/vendor.css",
   "vendor.js": "http://localhost:4241/webpack/vendor.js",
+  "vendor.css.map": "http://localhost:4241/webpack/vendor.css.map",
   "vendor.js.map": "http://localhost:4241/webpack/vendor.js.map",
   "index.sass": "http://localhost:4241/webpack/f94fc4438845b4b44dc908b4a44a608f.woff"
 }
