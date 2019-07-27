@@ -3,7 +3,7 @@ header.header
     nav.header-nav
       ul.header-nav__menu
         li.header-nav__menu-item
-          a.header-nav__menu-link Главная
+          = link_to "Главная", root_path , {:class => "header-nav__menu-link"}
         li.header-nav__menu-item
           a.header-nav__menu-link Каталог
         li.header-nav__menu-item

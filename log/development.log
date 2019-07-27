@@ -5045,3 +5045,464 @@ Processing by HomeController#index as HTML
 Completed 200 OK in 91ms (Views: 57.7ms | ActiveRecord: 5.1ms)
 
 
+Started GET "/" for 127.0.0.1 at 2019-07-27 20:08:50 +0300
+Processing by HomeController#index as HTML
+  [1m[36mPage Load (2.2ms)[0m  [1m[34mSELECT  "pages".* FROM "pages" WHERE "pages"."enabled" = $1 AND "pages"."fullpath" = $2 ORDER BY "pages"."id" ASC LIMIT $3[0m  [["enabled", true], ["fullpath", "/"], ["LIMIT", 1]]
+  ↳ /home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+  Rendering home/index.slim within layouts/application
+  Rendered home/index.slim within layouts/application (21.7ms)
+  [1m[36mRailsAdminSettings::Setting Load (1.4ms)[0m  [1m[34mSELECT "rails_admin_settings".* FROM "rails_admin_settings" WHERE "rails_admin_settings"."ns" = $1[0m  [["ns", "main"]]
+  ↳ app/views/layouts/application.slim:10
+  Rendered blocks/_header.slim (3.6ms)
+  Rendered blocks/_footer.slim (2.8ms)
+  Rendered /home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/rocket_cms-0.29.0/app/views/blocks/_counters.html (0.3ms)
+Completed 200 OK in 74ms (Views: 64.8ms | ActiveRecord: 3.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-07-27 20:10:39 +0300
+Processing by HomeController#index as HTML
+  [1m[36mPage Load (0.4ms)[0m  [1m[34mSELECT  "pages".* FROM "pages" WHERE "pages"."enabled" = $1 AND "pages"."fullpath" = $2 ORDER BY "pages"."id" ASC LIMIT $3[0m  [["enabled", true], ["fullpath", "/"], ["LIMIT", 1]]
+  ↳ /home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+  Rendering home/index.slim within layouts/application
+  Rendered home/index.slim within layouts/application (27.9ms)
+  [1m[36mRailsAdminSettings::Setting Load (0.4ms)[0m  [1m[34mSELECT "rails_admin_settings".* FROM "rails_admin_settings" WHERE "rails_admin_settings"."ns" = $1[0m  [["ns", "main"]]
+  ↳ app/views/layouts/application.slim:10
+  Rendered blocks/_header.slim (3.4ms)
+  Rendered blocks/_footer.slim (2.4ms)
+  Rendered /home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/rocket_cms-0.29.0/app/views/blocks/_counters.html (0.2ms)
+Completed 200 OK in 62ms (Views: 59.0ms | ActiveRecord: 0.7ms)
+
+
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "rails_admin_settings"."ns" FROM "rails_admin_settings"[0m
+  ↳ config/environment.rb:5
+  [1m[36mRailsAdminSettings::Setting Load (0.2ms)[0m  [1m[34mSELECT "rails_admin_settings".* FROM "rails_admin_settings" WHERE "rails_admin_settings"."ns" = $1[0m  [["ns", "main"]]
+  ↳ config/environment.rb:5
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "rails_admin_settings"."ns" FROM "rails_admin_settings"[0m
+  ↳ config/environment.rb:5
+  [1m[36mRailsAdminSettings::Setting Load (0.3ms)[0m  [1m[34mSELECT "rails_admin_settings".* FROM "rails_admin_settings" WHERE "rails_admin_settings"."ns" = $1[0m  [["ns", "main"]]
+  ↳ config/environment.rb:5
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "rails_admin_settings"."ns" FROM "rails_admin_settings"[0m
+  ↳ config/environment.rb:5
+  [1m[36mRailsAdminSettings::Setting Load (0.3ms)[0m  [1m[34mSELECT "rails_admin_settings".* FROM "rails_admin_settings" WHERE "rails_admin_settings"."ns" = $1[0m  [["ns", "main"]]
+  ↳ config/environment.rb:5
+Started GET "/" for 127.0.0.1 at 2019-07-27 20:17:04 +0300
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+Processing by HomeController#index as HTML
+  [1m[36mPage Load (0.6ms)[0m  [1m[34mSELECT  "pages".* FROM "pages" WHERE "pages"."enabled" = $1 AND "pages"."fullpath" = $2 ORDER BY "pages"."id" ASC LIMIT $3[0m  [["enabled", true], ["fullpath", "/"], ["LIMIT", 1]]
+  ↳ /home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+  Rendering home/index.slim within layouts/application
+  Rendered home/index.slim within layouts/application (26.1ms)
+  Rendered blocks/_header.slim (2.6ms)
+  Rendered blocks/_footer.slim (2.2ms)
+  Rendered /home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/rocket_cms-0.29.0/app/views/blocks/_counters.html (0.5ms)
+Completed 200 OK in 272ms (Views: 236.2ms | ActiveRecord: 3.7ms)
+
+
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "rails_admin_settings"."ns" FROM "rails_admin_settings"[0m
+  ↳ config/environment.rb:5
+  [1m[36mRailsAdminSettings::Setting Load (0.3ms)[0m  [1m[34mSELECT "rails_admin_settings".* FROM "rails_admin_settings" WHERE "rails_admin_settings"."ns" = $1[0m  [["ns", "main"]]
+  ↳ config/environment.rb:5
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "rails_admin_settings"."ns" FROM "rails_admin_settings"[0m
+  ↳ config/environment.rb:5
+  [1m[36mRailsAdminSettings::Setting Load (0.3ms)[0m  [1m[34mSELECT "rails_admin_settings".* FROM "rails_admin_settings" WHERE "rails_admin_settings"."ns" = $1[0m  [["ns", "main"]]
+  ↳ config/environment.rb:5
+/home/kyzma/projects1/top_project/config/routes.rb:15: syntax error, unexpected ':', expecting keyword_end
+  resources: product
+           ^
+/home/kyzma/projects1/top_project/config/routes.rb:19: syntax error, unexpected keyword_end, expecting end-of-input excluded from capture: DSN not set
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "rails_admin_settings"."ns" FROM "rails_admin_settings"[0m
+  ↳ config/environment.rb:5
+  [1m[36mRailsAdminSettings::Setting Load (0.2ms)[0m  [1m[34mSELECT "rails_admin_settings".* FROM "rails_admin_settings" WHERE "rails_admin_settings"."ns" = $1[0m  [["ns", "main"]]
+  ↳ config/environment.rb:5
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "rails_admin_settings"."ns" FROM "rails_admin_settings"[0m
+  ↳ config/environment.rb:5
+  [1m[36mRailsAdminSettings::Setting Load (0.3ms)[0m  [1m[34mSELECT "rails_admin_settings".* FROM "rails_admin_settings" WHERE "rails_admin_settings"."ns" = $1[0m  [["ns", "main"]]
+  ↳ config/environment.rb:5
+Started GET "/product/1" for 127.0.0.1 at 2019-07-27 20:21:44 +0300
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+
+
+Migrations are pending. To resolve this issue, run:
+
+        bin/rails db:migrate RAILS_ENV=development
+
+ excluded from capture: DSN not set
+  
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+        bin/rails db:migrate RAILS_ENV=development
+
+):
+  
+activerecord (5.2.0) lib/active_record/migration.rb:579:in `check_pending!'
+activerecord (5.2.0) lib/active_record/migration.rb:556:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.0) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.0) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+request_store (1.4.1) lib/request_store/middleware.rb:19:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+sentry-raven (2.9.0) lib/raven/integrations/rack.rb:51:in `call'
+railties (5.2.0) lib/rails/engine.rb:524:in `call'
+puma (4.0.1) lib/puma/configuration.rb:228:in `call'
+puma (4.0.1) lib/puma/server.rb:657:in `handle_request'
+puma (4.0.1) lib/puma/server.rb:467:in `process_client'
+puma (4.0.1) lib/puma/server.rb:328:in `block in run'
+puma (4.0.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2019-07-27 20:21:54 +0300
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+
+
+Migrations are pending. To resolve this issue, run:
+
+        bin/rails db:migrate RAILS_ENV=development
+
+ excluded from capture: DSN not set
+  
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+        bin/rails db:migrate RAILS_ENV=development
+
+):
+  
+activerecord (5.2.0) lib/active_record/migration.rb:579:in `check_pending!'
+activerecord (5.2.0) lib/active_record/migration.rb:556:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.0) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.0) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+request_store (1.4.1) lib/request_store/middleware.rb:19:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+sentry-raven (2.9.0) lib/raven/integrations/rack.rb:51:in `call'
+railties (5.2.0) lib/rails/engine.rb:524:in `call'
+puma (4.0.1) lib/puma/configuration.rb:228:in `call'
+puma (4.0.1) lib/puma/server.rb:657:in `handle_request'
+puma (4.0.1) lib/puma/server.rb:467:in `process_client'
+puma (4.0.1) lib/puma/server.rb:328:in `block in run'
+puma (4.0.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "rails_admin_settings"."ns" FROM "rails_admin_settings"[0m
+  ↳ config/environment.rb:5
+  [1m[36mRailsAdminSettings::Setting Load (0.3ms)[0m  [1m[34mSELECT "rails_admin_settings".* FROM "rails_admin_settings" WHERE "rails_admin_settings"."ns" = $1[0m  [["ns", "main"]]
+  ↳ config/environment.rb:5
+  [1m[35m (22.6ms)[0m  [1m[34mSELECT pg_try_advisory_lock(7680598571059690920)[0m
+  ↳ /home/kyzma/.rbenv/versions/2.5.0/bin/rake:23
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/kyzma/.rbenv/versions/2.5.0/bin/rake:23
+Migrating to CreateProducts (20190727171718)
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ /home/kyzma/.rbenv/versions/2.5.0/bin/rake:23
+  [1m[35m (286.2ms)[0m  [1m[35mCREATE TABLE "products" ("id" bigserial primary key, "title" character varying)[0m
+  ↳ db/migrate/20190727171718_create_products.rb:3
+  [1m[36mActiveRecord::SchemaMigration Create (0.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20190727171718"]]
+  ↳ /home/kyzma/.rbenv/versions/2.5.0/bin/rake:23
+  [1m[35m (17.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ /home/kyzma/.rbenv/versions/2.5.0/bin/rake:23
+  [1m[36mActiveRecord::InternalMetadata Load (33.5ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ /home/kyzma/.rbenv/versions/2.5.0/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ /home/kyzma/.rbenv/versions/2.5.0/bin/rake:23
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ /home/kyzma/.rbenv/versions/2.5.0/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_advisory_unlock(7680598571059690920)[0m
+  ↳ /home/kyzma/.rbenv/versions/2.5.0/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/kyzma/.rbenv/versions/2.5.0/bin/rake:23
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "rails_admin_settings"."ns" FROM "rails_admin_settings"[0m
+  ↳ config/environment.rb:5
+  [1m[36mRailsAdminSettings::Setting Load (0.3ms)[0m  [1m[34mSELECT "rails_admin_settings".* FROM "rails_admin_settings" WHERE "rails_admin_settings"."ns" = $1[0m  [["ns", "main"]]
+  ↳ config/environment.rb:5
+Started GET "/" for 127.0.0.1 at 2019-07-27 20:22:16 +0300
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+Processing by HomeController#index as HTML
+  [1m[36mPage Load (0.6ms)[0m  [1m[34mSELECT  "pages".* FROM "pages" WHERE "pages"."enabled" = $1 AND "pages"."fullpath" = $2 ORDER BY "pages"."id" ASC LIMIT $3[0m  [["enabled", true], ["fullpath", "/"], ["LIMIT", 1]]
+  ↳ /home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+  Rendering home/index.slim within layouts/application
+  Rendered home/index.slim within layouts/application (27.5ms)
+  Rendered blocks/_header.slim (2.8ms)
+  Rendered blocks/_footer.slim (2.3ms)
+  Rendered /home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/rocket_cms-0.29.0/app/views/blocks/_counters.html (0.5ms)
+Completed 200 OK in 268ms (Views: 231.7ms | ActiveRecord: 3.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-07-27 20:22:45 +0300
+Processing by HomeController#index as HTML
+  [1m[36mPage Load (0.4ms)[0m  [1m[34mSELECT  "pages".* FROM "pages" WHERE "pages"."enabled" = $1 AND "pages"."fullpath" = $2 ORDER BY "pages"."id" ASC LIMIT $3[0m  [["enabled", true], ["fullpath", "/"], ["LIMIT", 1]]
+  ↳ /home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+  Rendering home/index.slim within layouts/application
+  Rendered home/index.slim within layouts/application (11.9ms)
+  [1m[36mRailsAdminSettings::Setting Load (0.6ms)[0m  [1m[34mSELECT "rails_admin_settings".* FROM "rails_admin_settings" WHERE "rails_admin_settings"."ns" = $1[0m  [["ns", "main"]]
+  ↳ app/views/layouts/application.slim:10
+  Rendered blocks/_header.slim (2.7ms)
+  Rendered blocks/_footer.slim (2.2ms)
+  Rendered /home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/rocket_cms-0.29.0/app/views/blocks/_counters.html (0.2ms)
+Completed 200 OK in 43ms (Views: 40.1ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/products/1" for 127.0.0.1 at 2019-07-27 20:22:51 +0300
+Processing by PagesController#show as HTML
+  Parameters: {"slug"=>"products/1"}
+  [1m[36mPage Load (0.4ms)[0m  [1m[34mSELECT  "pages".* FROM "pages" WHERE "pages"."enabled" = $1 AND "pages"."fullpath" = $2 ORDER BY "pages"."id" ASC LIMIT $3[0m  [["enabled", true], ["fullpath", "/products/1"], ["LIMIT", 1]]
+  ↳ /home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+  [1m[36mCACHE Page Load (0.0ms)[0m  [1m[34mSELECT  "pages".* FROM "pages" WHERE "pages"."enabled" = $1 AND "pages"."fullpath" = $2 ORDER BY "pages"."id" ASC LIMIT $3[0m  [["enabled", true], ["fullpath", "/products/1"], ["LIMIT", 1]]
+  ↳ /home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+404: http://0.0.0.0:4240/products/1
+  Rendering /home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/rocket_cms-0.29.0/app/views/errors/error_404.slim within layouts/application
+  Rendered /home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/rocket_cms-0.29.0/app/views/errors/_base.slim (1.9ms)
+  Rendered /home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/rocket_cms-0.29.0/app/views/errors/error_404.slim within layouts/application (9.1ms)
+  [1m[36mRailsAdminSettings::Setting Load (0.4ms)[0m  [1m[34mSELECT "rails_admin_settings".* FROM "rails_admin_settings" WHERE "rails_admin_settings"."ns" = $1[0m  [["ns", "main"]]
+  ↳ app/views/layouts/application.slim:10
+  Rendered blocks/_header.slim (2.6ms)
+  Rendered blocks/_footer.slim (2.1ms)
+  Rendered /home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/rocket_cms-0.29.0/app/views/blocks/_counters.html (0.1ms)
+Completed 404 Not Found in 63ms (Views: 59.5ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/products/1" for 127.0.0.1 at 2019-07-27 20:23:16 +0300
+Processing by PagesController#show as HTML
+  Parameters: {"slug"=>"products/1"}
+  [1m[36mPage Load (0.4ms)[0m  [1m[34mSELECT  "pages".* FROM "pages" WHERE "pages"."enabled" = $1 AND "pages"."fullpath" = $2 ORDER BY "pages"."id" ASC LIMIT $3[0m  [["enabled", true], ["fullpath", "/products/1"], ["LIMIT", 1]]
+  ↳ /home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+  [1m[36mCACHE Page Load (0.0ms)[0m  [1m[34mSELECT  "pages".* FROM "pages" WHERE "pages"."enabled" = $1 AND "pages"."fullpath" = $2 ORDER BY "pages"."id" ASC LIMIT $3[0m  [["enabled", true], ["fullpath", "/products/1"], ["LIMIT", 1]]
+  ↳ /home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+404: http://0.0.0.0:4240/products/1
+  Rendering /home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/rocket_cms-0.29.0/app/views/errors/error_404.slim within layouts/application
+  Rendered /home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/rocket_cms-0.29.0/app/views/errors/_base.slim (2.1ms)
+  Rendered /home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/rocket_cms-0.29.0/app/views/errors/error_404.slim within layouts/application (5.2ms)
+  [1m[36mRailsAdminSettings::Setting Load (0.4ms)[0m  [1m[34mSELECT "rails_admin_settings".* FROM "rails_admin_settings" WHERE "rails_admin_settings"."ns" = $1[0m  [["ns", "main"]]
+  ↳ app/views/layouts/application.slim:10
+  Rendered blocks/_header.slim (2.5ms)
+  Rendered blocks/_footer.slim (2.8ms)
+  Rendered /home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/rocket_cms-0.29.0/app/views/blocks/_counters.html (0.2ms)
+Completed 404 Not Found in 33ms (Views: 30.3ms | ActiveRecord: 0.8ms)
+
+
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "rails_admin_settings"."ns" FROM "rails_admin_settings"[0m
+  ↳ config/environment.rb:5
+  [1m[36mRailsAdminSettings::Setting Load (0.2ms)[0m  [1m[34mSELECT "rails_admin_settings".* FROM "rails_admin_settings" WHERE "rails_admin_settings"."ns" = $1[0m  [["ns", "main"]]
+  ↳ config/environment.rb:5
+Started GET "/products/1" for 127.0.0.1 at 2019-07-27 20:23:27 +0300
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+Processing by PagesController#show as HTML
+  Parameters: {"slug"=>"products/1"}
+  [1m[36mPage Load (0.8ms)[0m  [1m[34mSELECT  "pages".* FROM "pages" WHERE "pages"."enabled" = $1 AND "pages"."fullpath" = $2 ORDER BY "pages"."id" ASC LIMIT $3[0m  [["enabled", true], ["fullpath", "/products/1"], ["LIMIT", 1]]
+  ↳ /home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+  [1m[36mCACHE Page Load (0.0ms)[0m  [1m[34mSELECT  "pages".* FROM "pages" WHERE "pages"."enabled" = $1 AND "pages"."fullpath" = $2 ORDER BY "pages"."id" ASC LIMIT $3[0m  [["enabled", true], ["fullpath", "/products/1"], ["LIMIT", 1]]
+  ↳ /home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+404: http://0.0.0.0:4240/products/1
+  Rendering /home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/rocket_cms-0.29.0/app/views/errors/error_404.slim within layouts/application
+  Rendered /home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/rocket_cms-0.29.0/app/views/errors/_base.slim (2.3ms)
+  Rendered /home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/rocket_cms-0.29.0/app/views/errors/error_404.slim within layouts/application (17.4ms)
+  Rendered blocks/_header.slim (2.9ms)
+  Rendered blocks/_footer.slim (2.7ms)
+  Rendered /home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/rocket_cms-0.29.0/app/views/blocks/_counters.html (0.6ms)
+Completed 404 Not Found in 286ms (Views: 244.4ms | ActiveRecord: 5.4ms)
+
+
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "rails_admin_settings"."ns" FROM "rails_admin_settings"[0m
+  ↳ config/environment.rb:5
+  [1m[36mRailsAdminSettings::Setting Load (0.3ms)[0m  [1m[34mSELECT "rails_admin_settings".* FROM "rails_admin_settings" WHERE "rails_admin_settings"."ns" = $1[0m  [["ns", "main"]]
+  ↳ config/environment.rb:5
+Started GET "/" for 127.0.0.1 at 2019-07-27 20:31:25 +0300
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+Processing by HomeController#index as HTML
+  [1m[36mPage Load (0.6ms)[0m  [1m[34mSELECT  "pages".* FROM "pages" WHERE "pages"."enabled" = $1 AND "pages"."fullpath" = $2 ORDER BY "pages"."id" ASC LIMIT $3[0m  [["enabled", true], ["fullpath", "/"], ["LIMIT", 1]]
+  ↳ /home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+  Rendering home/index.slim within layouts/application
+  Rendered home/index.slim within layouts/application (35.0ms)
+  Rendered blocks/_header.slim (4.9ms)
+  Rendered blocks/_footer.slim (6.2ms)
+  Rendered /home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/rocket_cms-0.29.0/app/views/blocks/_counters.html (1.3ms)
+Completed 200 OK in 400ms (Views: 347.2ms | ActiveRecord: 4.0ms)
+
+
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "rails_admin_settings"."ns" FROM "rails_admin_settings"[0m
+  ↳ config/environment.rb:5
+  [1m[36mRailsAdminSettings::Setting Load (0.2ms)[0m  [1m[34mSELECT "rails_admin_settings".* FROM "rails_admin_settings" WHERE "rails_admin_settings"."ns" = $1[0m  [["ns", "main"]]
+  ↳ config/environment.rb:5
+Started GET "/" for 127.0.0.1 at 2019-07-27 20:46:48 +0300
+Processing by HomeController#index as HTML
+  [1m[36mPage Load (2.1ms)[0m  [1m[34mSELECT  "pages".* FROM "pages" WHERE "pages"."enabled" = $1 AND "pages"."fullpath" = $2 ORDER BY "pages"."id" ASC LIMIT $3[0m  [["enabled", true], ["fullpath", "/"], ["LIMIT", 1]]
+  ↳ /home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+  Rendering home/index.slim within layouts/application
+  Rendered home/index.slim within layouts/application (20.9ms)
+  [1m[36mRailsAdminSettings::Setting Load (0.9ms)[0m  [1m[34mSELECT "rails_admin_settings".* FROM "rails_admin_settings" WHERE "rails_admin_settings"."ns" = $1[0m  [["ns", "main"]]
+  ↳ app/views/layouts/application.slim:10
+  Rendered blocks/_header.slim (3.4ms)
+  Rendered blocks/_footer.slim (5.2ms)
+  Rendered /home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/rocket_cms-0.29.0/app/views/blocks/_counters.html (0.3ms)
+Completed 200 OK in 70ms (Views: 62.1ms | ActiveRecord: 2.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-07-27 20:47:10 +0300
+Processing by HomeController#index as HTML
+  [1m[36mPage Load (0.7ms)[0m  [1m[34mSELECT  "pages".* FROM "pages" WHERE "pages"."enabled" = $1 AND "pages"."fullpath" = $2 ORDER BY "pages"."id" ASC LIMIT $3[0m  [["enabled", true], ["fullpath", "/"], ["LIMIT", 1]]
+  ↳ /home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+  Rendering home/index.slim within layouts/application
+  Rendered home/index.slim within layouts/application (19.3ms)
+  [1m[36mRailsAdminSettings::Setting Load (0.7ms)[0m  [1m[34mSELECT "rails_admin_settings".* FROM "rails_admin_settings" WHERE "rails_admin_settings"."ns" = $1[0m  [["ns", "main"]]
+  ↳ app/views/layouts/application.slim:10
+  Rendered blocks/_header.slim (3.2ms)
+  Rendered blocks/_footer.slim (2.2ms)
+  Rendered /home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/rocket_cms-0.29.0/app/views/blocks/_counters.html (0.4ms)
+Completed 200 OK in 66ms (Views: 61.8ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-07-27 20:47:26 +0300
+Processing by HomeController#index as HTML
+  [1m[36mPage Load (0.5ms)[0m  [1m[34mSELECT  "pages".* FROM "pages" WHERE "pages"."enabled" = $1 AND "pages"."fullpath" = $2 ORDER BY "pages"."id" ASC LIMIT $3[0m  [["enabled", true], ["fullpath", "/"], ["LIMIT", 1]]
+  ↳ /home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+  Rendering home/index.slim within layouts/application
+  Rendered home/index.slim within layouts/application (25.7ms)
+  [1m[36mRailsAdminSettings::Setting Load (0.4ms)[0m  [1m[34mSELECT "rails_admin_settings".* FROM "rails_admin_settings" WHERE "rails_admin_settings"."ns" = $1[0m  [["ns", "main"]]
+  ↳ app/views/layouts/application.slim:10
+  Rendered blocks/_header.slim (3.9ms)
+Completed 500 Internal Server Error in 68ms (ActiveRecord: 1.0ms)
+
+
+/home/kyzma/projects1/top_project/app/views/blocks/_header.slim:6: syntax error, unexpected '='
+...авная", root_path , class = header-nav__menu-link))).to_...
+...                               ^ excluded from capture: DSN not set
+  
+SyntaxError (/home/kyzma/projects1/top_project/app/views/blocks/_header.slim:6: syntax error, unexpected '='
+...авная", root_path , class = header-nav__menu-link))).to_...
+...                               ^):
+  
+app/views/blocks/_header.slim:6: syntax error, unexpected '='
+app/views/layouts/application.slim:21:in `_app_views_layouts_application_slim___3139210523137313682_70148473744000'
+Started GET "/" for 127.0.0.1 at 2019-07-27 20:47:40 +0300
+Processing by HomeController#index as HTML
+  [1m[36mPage Load (0.4ms)[0m  [1m[34mSELECT  "pages".* FROM "pages" WHERE "pages"."enabled" = $1 AND "pages"."fullpath" = $2 ORDER BY "pages"."id" ASC LIMIT $3[0m  [["enabled", true], ["fullpath", "/"], ["LIMIT", 1]]
+  ↳ /home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+  Rendering home/index.slim within layouts/application
+  Rendered home/index.slim within layouts/application (36.2ms)
+  Rendered blocks/_header.slim (7.7ms)
+  Rendered blocks/_footer.slim (4.7ms)
+  Rendered /home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/rocket_cms-0.29.0/app/views/blocks/_counters.html (0.2ms)
+Completed 200 OK in 110ms (Views: 107.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-07-27 20:47:42 +0300
+Processing by HomeController#index as HTML
+  [1m[36mPage Load (0.4ms)[0m  [1m[34mSELECT  "pages".* FROM "pages" WHERE "pages"."enabled" = $1 AND "pages"."fullpath" = $2 ORDER BY "pages"."id" ASC LIMIT $3[0m  [["enabled", true], ["fullpath", "/"], ["LIMIT", 1]]
+  ↳ /home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+  Rendering home/index.slim within layouts/application
+  Rendered home/index.slim within layouts/application (51.2ms)
+  [1m[36mRailsAdminSettings::Setting Load (0.4ms)[0m  [1m[34mSELECT "rails_admin_settings".* FROM "rails_admin_settings" WHERE "rails_admin_settings"."ns" = $1[0m  [["ns", "main"]]
+  ↳ app/views/layouts/application.slim:10
+  Rendered blocks/_header.slim (8.0ms)
+  Rendered blocks/_footer.slim (11.5ms)
+  Rendered /home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/rocket_cms-0.29.0/app/views/blocks/_counters.html (0.4ms)
+Completed 200 OK in 127ms (Views: 123.8ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-07-27 20:47:53 +0300
+Processing by HomeController#index as HTML
+  [1m[36mPage Load (0.7ms)[0m  [1m[34mSELECT  "pages".* FROM "pages" WHERE "pages"."enabled" = $1 AND "pages"."fullpath" = $2 ORDER BY "pages"."id" ASC LIMIT $3[0m  [["enabled", true], ["fullpath", "/"], ["LIMIT", 1]]
+  ↳ /home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+  Rendering home/index.slim within layouts/application
+  Rendered home/index.slim within layouts/application (70.9ms)
+  [1m[36mRailsAdminSettings::Setting Load (0.4ms)[0m  [1m[34mSELECT "rails_admin_settings".* FROM "rails_admin_settings" WHERE "rails_admin_settings"."ns" = $1[0m  [["ns", "main"]]
+  ↳ app/views/layouts/application.slim:10
+  Rendered blocks/_header.slim (4.0ms)
+Completed 500 Internal Server Error in 118ms (ActiveRecord: 1.1ms)
+
+
+/home/kyzma/projects1/top_project/app/views/blocks/_header.slim:6: syntax error, unexpected '='
+...вная", root_path , {class = header-nav__menu-link}))).to...
+...                              ^
+/home/kyzma/projects1/top_project/app/views/blocks/_header.slim:6: syntax error, unexpected '}', expecting ')'
+...{class = header-nav__menu-link}))).to_s)); 
+...                              ^
+/home/kyzma/projects1/top_project/app/views/blocks/_header.slim:17: syntax error, unexpected keyword_ensure, expecting ')'
+          ensure
+          ^~~~~~
+/home/kyzma/projects1/top_project/app/views/blocks/_header.slim:19: syntax error, unexpected keyword_end, expecting ')'
+          end
+          ^~~ excluded from capture: DSN not set
+  
+SyntaxError (/home/kyzma/projects1/top_project/app/views/blocks/_header.slim:6: syntax error, unexpected '='
+...вная", root_path , {class = header-nav__menu-link}))).to...
+...                              ^
+/home/kyzma/projects1/top_project/app/views/blocks/_header.slim:6: syntax error, unexpected '}', expecting ')'
+...{class = header-nav__menu-link}))).to_s)); 
+...                              ^
+/home/kyzma/projects1/top_project/app/views/blocks/_header.slim:17: syntax error, unexpected keyword_ensure, expecting ')'
+          ensure
+          ^~~~~~
+/home/kyzma/projects1/top_project/app/views/blocks/_header.slim:19: syntax error, unexpected keyword_end, expecting ')'
+          end
+          ^~~):
+  
+app/views/blocks/_header.slim:6: syntax error, unexpected '='
+app/views/blocks/_header.slim:6: syntax error, unexpected '}', expecting ')'
+app/views/blocks/_header.slim:17: syntax error, unexpected keyword_ensure, expecting ')'
+app/views/blocks/_header.slim:19: syntax error, unexpected keyword_end, expecting ')'
+app/views/layouts/application.slim:21:in `_app_views_layouts_application_slim___3139210523137313682_70148474216720'
+Started GET "/" for 127.0.0.1 at 2019-07-27 20:48:39 +0300
+Processing by HomeController#index as HTML
+  [1m[36mPage Load (0.7ms)[0m  [1m[34mSELECT  "pages".* FROM "pages" WHERE "pages"."enabled" = $1 AND "pages"."fullpath" = $2 ORDER BY "pages"."id" ASC LIMIT $3[0m  [["enabled", true], ["fullpath", "/"], ["LIMIT", 1]]
+  ↳ /home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+  Rendering home/index.slim within layouts/application
+  Rendered home/index.slim within layouts/application (23.4ms)
+  Rendered blocks/_header.slim (5.2ms)
+  Rendered blocks/_footer.slim (3.6ms)
+  Rendered /home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/rocket_cms-0.29.0/app/views/blocks/_counters.html (0.3ms)
+Completed 200 OK in 70ms (Views: 66.8ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-07-27 20:48:41 +0300
+Processing by HomeController#index as HTML
+  [1m[36mPage Load (0.4ms)[0m  [1m[34mSELECT  "pages".* FROM "pages" WHERE "pages"."enabled" = $1 AND "pages"."fullpath" = $2 ORDER BY "pages"."id" ASC LIMIT $3[0m  [["enabled", true], ["fullpath", "/"], ["LIMIT", 1]]
+  ↳ /home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+  Rendering home/index.slim within layouts/application
+  Rendered home/index.slim within layouts/application (37.8ms)
+  [1m[36mRailsAdminSettings::Setting Load (0.6ms)[0m  [1m[34mSELECT "rails_admin_settings".* FROM "rails_admin_settings" WHERE "rails_admin_settings"."ns" = $1[0m  [["ns", "main"]]
+  ↳ app/views/layouts/application.slim:10
+  Rendered blocks/_header.slim (3.6ms)
+  Rendered blocks/_footer.slim (5.0ms)
+  Rendered /home/kyzma/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/rocket_cms-0.29.0/app/views/blocks/_counters.html (0.3ms)
+Completed 200 OK in 82ms (Views: 79.5ms | ActiveRecord: 0.9ms)
+
+
