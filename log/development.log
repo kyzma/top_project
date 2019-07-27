@@ -4957,3 +4957,17 @@ Processing by HomeController#index as HTML
 Completed 200 OK in 8ms (Views: 7.1ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/" for 127.0.0.1 at 2019-07-27 19:27:56 +0300
+Processing by HomeController#index as HTML
+  Rendering home/index.slim
+  Rendered home/index.slim (39.8ms)
+Completed 200 OK in 46ms (Views: 45.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-07-27 19:29:44 +0300
+Processing by HomeController#index as HTML
+  Rendering home/index.slim
+  Rendered home/index.slim (20.0ms)
+Completed 200 OK in 28ms (Views: 26.2ms | ActiveRecord: 0.0ms)
+
+

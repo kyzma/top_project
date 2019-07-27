@@ -1,1 +1,155 @@
-| Тестовая вьюах индекс\хом
+.catalog
+  .container
+    form.catalog__filters
+      select.catalog__filters-select name="type"
+        option selected="true" disabled="true" Тип
+        option value="1" Все
+        option value="2" Квартира
+        option value="3" Дом
+      select.catalog__filters-select name="city"
+        option selected="true" disabled="true" Город
+        option value="1" Все
+        option value="2" Донецк
+        option value="3" Макеевка
+      .catalog__filters-select.catalog__filters-select--district#district name="district"
+        .district__dropdown#dropdown
+          label.district__label
+            | Буденновский
+            input type="checkbox" value="1"
+          label.district__label
+            | Калининский
+            input type="checkbox" value="2"
+          label.district__label
+            | Киевский
+            input type="checkbox" value="3"
+          label.district__label
+            | Куйбышевский
+            input type="checkbox" value="4"
+          label.district__label
+            | Ленинский
+            input type="checkbox" value="5"
+
+
+
+
+        / option selected="true" disabled="true" Район
+        / option value="1" Калининский
+        / option value="2" Куйбышевский
+        / option value="3" Ленинский
+
+      select.catalog__filters-select name="type"
+      select.catalog__filters-select name="type"
+
+    .catalog__list
+      .catalog__list-card
+        .list-card__holder
+          img.list-card__image
+        .list-card__desc
+          .desc__item
+            p.desc__item-title Город:
+            p.desc__item-value Донецк
+          .desc__item
+            p.desc__item-title Район:
+            p.desc__item-value Куйбышевский
+          .desc__item
+            p.desc__item-title Улица:
+            p.desc__item-value Атронавтотавтов
+          .desc__item
+            p.desc__item-title Кол-во комнат:
+            p.desc__item-value 3
+          .desc__item
+            p.desc__item-title Цена:
+            p.desc__item-value 15000
+
+      .catalog__list-card
+        .list-card__holder
+          img.list-card__image
+        .list-card__desc
+          .desc__item
+            p.desc__item-title Город:
+            p.desc__item-value Донецк
+          .desc__item
+            p.desc__item-title Район:
+            p.desc__item-value Куйбышевский
+          .desc__item
+            p.desc__item-title Улица:
+            p.desc__item-value Атронавтотавтов
+          .desc__item
+            p.desc__item-title Кол-во комнат:
+            p.desc__item-value 3
+          .desc__item
+            p.desc__item-title Цена:
+            p.desc__item-value 15000
+
+      .catalog__list-card
+        .list-card__holder
+          img.list-card__image
+        .list-card__desc
+          .desc__item
+            p.desc__item-title Город:
+            p.desc__item-value Донецк
+          .desc__item
+            p.desc__item-title Район:
+            p.desc__item-value Куйбышевский
+          .desc__item
+            p.desc__item-title Улица:
+            p.desc__item-value Атронавтотавтов
+          .desc__item
+            p.desc__item-title Кол-во комнат:
+            p.desc__item-value 3
+          .desc__item
+            p.desc__item-title Цена:
+            p.desc__item-value 15000
+      .catalog__list-card
+        .list-card__holder
+          img.list-card__image
+        .list-card__desc
+          .desc__item
+            p.desc__item-title Город:
+            p.desc__item-value Донецк
+          .desc__item
+            p.desc__item-title Район:
+            p.desc__item-value Куйбышевский
+          .desc__item
+            p.desc__item-title Улица:
+            p.desc__item-value Атронавтотавтов
+          .desc__item
+            p.desc__item-title Кол-во комнат:
+            p.desc__item-value 3
+          .desc__item
+            p.desc__item-title Цена:
+            p.desc__item-value 15000
+      .catalog__list-card
+        .list-card__holder
+          img.list-card__image
+        .list-card__desc
+          .desc__item
+            p.desc__item-title Город:
+            p.desc__item-value Донецк
+          .desc__item
+            p.desc__item-title Район:
+            p.desc__item-value Куйбышевский
+          .desc__item
+            p.desc__item-title Улица:
+            p.desc__item-value Атронавтотавтов
+          .desc__item
+            p.desc__item-title Кол-во комнат:
+            p.desc__item-value 3
+          .desc__item
+            p.desc__item-title Цена:
+            p.desc__item-value 15000
+
+    .catalog__pagination
+      ul.pagination__list
+        li.pagination__list-item
+          a.pagination__list-link 1
+        li.pagination__list-item
+          a.pagination__list-link 2
+        li.pagination__list-item
+          a.pagination__list-link 3
+        li.pagination__list-item
+          a.pagination__list-link 4
+        li.pagination__list-item
+          a.pagination__list-link 5
+        li.pagination__list-item
+          a.pagination__list-link 6
