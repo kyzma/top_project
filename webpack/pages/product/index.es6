@@ -13,7 +13,7 @@ export default function Product() {
         {
             spaceBetween: 5,
             slidesPerView: 4,
-            loop: true,
+            loop: false,
             freeMode: true,
             loopedSlides: 5,
             watchSlidesVisibility: true,
@@ -23,7 +23,7 @@ export default function Product() {
     const slider = new Swiper(sliderCont,
         {
             spaceBetween: 5,
-            loop:true,
+            loop: false,
             loopedSlides: 5,
             navigation: {
                 nextEl: slideNext,
