@@ -12,6 +12,7 @@ Rails.application.routes.draw do
   #resources :news, only: [:index, :show]
 
   root to: 'home#index'
+  get '/feedback' => 'feedback#show'
   resources  :product
 
   get '*slug' => 'pages#show'

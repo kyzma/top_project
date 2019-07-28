@@ -19,9 +19,7 @@ Rails.start();
 
 import axios from 'axios';
 
-import "./blocks";
-//import "./pages";
-
+import Blocks from "./blocks";
 import Pages from './pages';
 
 import "analytics"
@@ -30,11 +28,13 @@ import "analytics"
 document.addEventListener("turbolinks:load", function() {
   axios.defaults.headers.common['X-CSRF-Token'] = $('meta[name=csrf-token]').attr('content');
   axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
+  new Pages();
+  new Blocks();
 });
 
-$(() => {
-  new Pages();
-});
+// $(() => {
+//   new Pages();
+// });
 
 
 

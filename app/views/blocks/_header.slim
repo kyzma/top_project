@@ -12,4 +12,24 @@ header.header
           a.header-nav__menu-link Еще
         li.header-nav__menu-item
           a.header-nav__menu-link Контакты
+
+    .header__opener
+
+.header-nav__mobile
+  ul.header-nav__menu
+    li.header-nav__menu-item
+      = link_to "Главная", root_path, {:class => "header-nav__menu-link"}
+    li.header-nav__menu-item
+      = link_to "Каталог", root_path, {:class => "header-nav__menu-link"}
+    li.header-nav__menu-item
+      a.header-nav__menu-link О нас
+    li.header-nav__menu-item
+      a.header-nav__menu-link Еще
+    li.header-nav__menu-item
+      a.header-nav__menu-link Контакты
+
+  .header-nav__mobile-closer
+
+
+
   //= render_navigation &navigation(:main)
