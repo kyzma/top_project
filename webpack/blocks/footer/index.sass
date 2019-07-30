@@ -1,4 +1,39 @@
 footer.footer
+  padding: 20px 0
 
 .footer__block
   display: flex
+  justify-content: space-between
+
+
+.footer__contacts-link
+  position: relative
+  display: block
+  padding-left: 10px
+
+  &:not(:last-child)
+    margin-bottom: 10px
+
+  &:before
+    content: ''
+    position: absolute
+    top: 5px
+    left: 0
+    width: 10px
+    height: 10px
+    background-color: red
+
+.footer__socials
+  display: flex
+  flex-wrap: wrap
+  align-self: center
+  width: 62px
+  height: 60px
+
+.footer__socials-link
+  display: block
+  width: 29px
+  height: 29px
+  margin: 1px
+  background-color: red
+  border: 1px solid #000
