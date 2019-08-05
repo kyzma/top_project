@@ -1,2 +1,22 @@
 .feedback
   .container
+    .feedback__top
+      .feedback__top-left
+        h2.left__title Наши контакты
+        .left__item.left__item--address г. Донецк, ул. Примерная, д. 11
+        .left__item.left__item--tel (071)333-33-33
+        .left__item.left__item--tel (071)333-33-33
+        .left__item.left__item--mail example@mail.ru
+      .feedback__top-right
+        h2.right__title Свяжитесь с нами
+        form.right__form method="" action=""
+          input.right__form-input placeholder="Как к Вам обращаться"
+          input.right__form-input placeholder="Ваш телефон"
+          input.right__form-input placeholder="Ваша почта"
+          textarea.right__form-text placeholder="Текст сообщения"
+          button.right__form-sub Отправить
+
+
+    .feedback__map
+      #map(style='width: 100%; height: 500px')
+

@@ -6,6 +6,8 @@ html lang="ru"
     -# meta property="fb:app_id" content=Rails.application.secrets.fb_app_id
     -# meta property="vk:app_id" content=Rails.application.secrets.vk_app_id
     meta name="turbolinks-cache-control" content="no-cache"
+    script src="https://api-maps.yandex.ru/2.1/?apikey=<7657b39f-0502-4dd8-85e0-3873a9f163d0>&lang=ru_RU" type="text/javascript">
+
 
     title= page_title
     = yield :meta
@@ -25,6 +27,8 @@ html lang="ru"
     main.main
       //= render 'shared/messages'
       = yield
+
+    =render 'blocks/contactus'
 
     = render 'blocks/footer'
 

@@ -9,7 +9,13 @@ footer.footer
 .footer__contacts-link
   position: relative
   display: block
-  padding-left: 10px
+  padding-left: 20px
+  color: #28282b
+  font-weight: 600
+
+  & a
+    color: #28282b
+    font-weight: 600
 
   &:not(:last-child)
     margin-bottom: 10px
@@ -17,11 +23,24 @@ footer.footer
   &:before
     content: ''
     position: absolute
-    top: 5px
+    top: 3px
     left: 0
-    width: 10px
-    height: 10px
-    background-color: red
+    width: 15px
+    height: 15px
+    background-size: cover
+    background-repeat: no-repeat
+
+.footer__contacts-link--address
+  &:before
+    background-image: url("address.svg")
+
+.footer__contacts-link--tel
+  &:before
+    background-image: url("tel.svg")
+
+.footer__contacts-link--mail
+  &:before
+    background-image: url("mail.svg")
 
 .footer__socials
   display: flex
